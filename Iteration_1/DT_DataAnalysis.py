@@ -2,14 +2,14 @@ import json
 import pandas as pd
 import numpy as np
 
-with open('Data/test.json') as f:
+with open('data/test.json') as f:
     DataRandy = json.load(f)
     DataRandy['Session'] = 'Test'
 
-with open('/Data/Run_Daan.json') as j:
+with open('data/Run_Daan.json') as j:
     DataDaan = json.load(j)
     DataDaan['Session'] = 'Run_Daan'
-with open('/Data/RoysUnfinishedRun.json') as z:
+with open('/data/RoysUnfinishedRun.json') as z:
     DataRoy = json.load(z)
     DataRoy['Session'] = 'RoysUnfinishedRun'
 
