@@ -2,18 +2,32 @@ import json
 import pandas as pd
 import numpy as np
 
-with open('./Iteration_1/Data/test.json') as f:
-    DataRandy = json.load(f)
-    DataRandy['Session'] = 'Test'
 
-with open('./Iteration_1/Data/Run_Daan.json') as j:
-    DataDaan = json.load(j)
-    DataDaan['Session'] = 'Run_Daan'
-with open('./Iteration_1/Data/RoysUnfinishedRun.json') as z:
-    DataRoy = json.load(z)
-    DataRoy['Session'] = 'RoysUnfinishedRun'
+# Load Datasets & add session name
+def LoadData(count):
+    name = runthroughs[count]
+    saveLocation = "./Iteration_1/Data/" + name + ".json"
+    with open(saveLocation) as f:
+        data = json.load(f)
+        data['Session'] = name
+    dataSS = pd.json_normalize(data, 'ScoredSteps')
+    dataSS['GameSessionId'] = data['Session']
+    return dataSS
 
 
+# Choose datasets and initiate functions
+runthroughs = ['test', 'Run_Daan', 'RoysUnfinishedRun']
+
+count = len(runthroughs)
+while count > 0:
+    count = count - 1
+    newdata = LoadData(count)
+    if count != len(runthroughs):
+        mergedData = pd.concat([olddata, newdata])
+        olddata = mergedData
+
+
+'''
 # scored steps df
 SSRandy = pd.json_normalize(DataRandy, 'ScoredSteps')
 SSRandy['GameSessionId'] = DataRandy['Session']
@@ -39,3 +53,4 @@ ExpRoy = pd.json_normalize(DataRoy, 'Experience')
 # Merged_SS.to_parquet('C:/Users/randy/Downloads/Merged_SS.parquet')
 print(Merged_SS['GameSessionId'].nunique())
 print(Merged_SS['StepId'].value_counts())
+'''
