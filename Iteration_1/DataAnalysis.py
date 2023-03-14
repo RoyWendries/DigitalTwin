@@ -1,12 +1,17 @@
+# %%
 import json
 import pandas as pd
 import numpy as np
 
-
+# %%
 # Load Datasets & add session name
+
+
 def LoadData(count):
-    name = runthroughs[count]
-    saveLocation = "./Iteration_1/Data/" + name + ".json"
+    name = FileList[count]
+    # uncomment and remove when not using interactive window
+    # saveLocation = "./Iteration_1/Data/" + name + ".json"
+    saveLocation = "g:/Projects/DigitalTwin/Iteration_1/Data/" + name + ".json"
     with open(saveLocation) as f:
         data = json.load(f)
         data['Session'] = name
@@ -15,18 +20,21 @@ def LoadData(count):
     return dataSS
 
 
+# %%
 # Choose datasets and initiate functions
-runthroughs = ['test', 'Run_Daan', 'RoysUnfinishedRun']
+FileList = ['test', 'Run_Daan', 'RoysUnfinishedRun']
 
-count = len(runthroughs)
+count = len(FileList)
 while count > 0:
     count = count - 1
     newdata = LoadData(count)
-    if count != len(runthroughs):
-        mergedData = pd.concat([olddata, newdata])
-        olddata = mergedData
+    if count != len(FileList) - 1:
+        newdata = pd.concat([olddata, newdata])
+        newdata = newdata.drop(columns=['Id'])
+    olddata = newdata
 
 
+# %%
 '''
 # scored steps df
 SSRandy = pd.json_normalize(DataRandy, 'ScoredSteps')
@@ -45,6 +53,7 @@ ASDaan = pd.json_normalize(DataDaan['ScoredSteps'], 'ActionScores')
 ASRoy = pd.json_normalize(DataRoy['ScoredSteps'], 'ActionScores')
 
 # Experience
+
 ExpRandy = pd.json_normalize(DataRandy, 'Experience')
 ExpDaan = pd.json_normalize(DataDaan, 'Experience')
 ExpRoy = pd.json_normalize(DataRoy, 'Experience')
@@ -54,3 +63,5 @@ ExpRoy = pd.json_normalize(DataRoy, 'Experience')
 print(Merged_SS['GameSessionId'].nunique())
 print(Merged_SS['StepId'].value_counts())
 '''
+
+# %%
