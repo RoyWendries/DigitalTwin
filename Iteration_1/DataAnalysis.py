@@ -18,24 +18,23 @@ def LoadData(count):
 
     # call function
     dataSS = ActionTime(dataSS)
-    # dataSS = pd.concat([timeDelta, dataSS])
     return dataSS
+
 
 # %%
 # Add column for the time between actions
-
-
 def ActionTime(data):
     timeDelta = []
     startTime = data["StartTime"][0]
     startTime = startTime[11::]
-    startTime = datetime.strptime(startTime, '%H:%M:%S')
+    oldtime = datetime.strptime(startTime, '%H:%M:%S')
     stopTime = data["StopTime"]
     for time in stopTime:
         time = time[11::]
         time = datetime.strptime(time, '%H:%M:%S')
-        time = time - startTime
-        timeDelta.append(str(time))
+        delta = time - oldtime
+        oldtime = time
+        timeDelta.append(str(delta))
     data["TimeDelta"] = timeDelta
     return data
 
