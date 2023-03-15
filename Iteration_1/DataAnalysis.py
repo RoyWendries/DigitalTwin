@@ -1,41 +1,46 @@
+# %%
+import os
 import json
 import pandas as pd
-import numpy as np
-
-with open('./Iteration_1/Data/test.json') as f:
-    DataRandy = json.load(f)
-    DataRandy['Session'] = 'Test'
-
-with open('./Iteration_1/Data/Run_Daan.json') as j:
-    DataDaan = json.load(j)
-    DataDaan['Session'] = 'Run_Daan'
-with open('./Iteration_1/Data/RoysUnfinishedRun.json') as z:
-    DataRoy = json.load(z)
-    DataRoy['Session'] = 'RoysUnfinishedRun'
 
 
-# scored steps df
-SSRandy = pd.json_normalize(DataRandy, 'ScoredSteps')
-SSRandy['GameSessionId'] = DataRandy['Session']
-SSDaan = pd.json_normalize(DataDaan, 'ScoredSteps')
-SSDaan['GameSessionId'] = DataDaan['Session']
-SSRoy = pd.json_normalize(DataRoy, 'ScoredSteps')
-SSRoy['GameSessionId'] = DataRoy['Session']
-Merged_SS = pd.concat([SSRandy, SSDaan, SSRoy], keys=[
-                      DataRandy['UserId'], DataDaan['UserId'], DataRoy['UserId']])
-Merged_SS = Merged_SS.drop(columns=['Id'])
+# %%
+# Load Datasets & add session name
+def LoadData(count):
+    name = FileList[count]
+    saveLocation = dir + "\Data\\" + name
+    with open(saveLocation) as f:
+        data = json.load(f)
+        data['Session'] = name
+    dataSS = pd.json_normalize(data, 'ScoredSteps')
+    dataSS['GameSessionId'] = data['Session']
+    return dataSS
 
-# ActionScores
-ASRandy = pd.json_normalize(DataRandy['ScoredSteps'], 'ActionScores')
-ASDaan = pd.json_normalize(DataDaan['ScoredSteps'], 'ActionScores')
-ASRoy = pd.json_normalize(DataRoy['ScoredSteps'], 'ActionScores')
 
-# Experience
-ExpRandy = pd.json_normalize(DataRandy, 'Experience')
-ExpDaan = pd.json_normalize(DataDaan, 'Experience')
-ExpRoy = pd.json_normalize(DataRoy, 'Experience')
+# %%
+# Interactive windows have diff dir's
+pathExtension = "Iteration_1"
+dir = os.getcwd()
+pathCheck = dir.endswith(pathExtension)
+if not pathCheck:
+    os.chdir(pathExtension)
+    dir = os.getcwd()
 
-# Testing
-# Merged_SS.to_parquet('C:/Users/randy/Downloads/Merged_SS.parquet')
-print(Merged_SS['GameSessionId'].nunique())
-print(Merged_SS['StepId'].value_counts())
+# %%
+# Grab datasets and initiate function to load data
+pathToJson = "Data/"
+FileList = [pos_json for pos_json in os.listdir(
+    pathToJson) if pos_json.endswith('.json')]
+
+count = len(FileList)
+while count > 0:
+    count = count - 1
+    newdata = LoadData(count)
+    if count != len(FileList) - 1:
+        newdata = pd.concat([olddata, newdata])
+        newdata = newdata.drop(columns=['Id'])
+    olddata = newdata
+del olddata
+
+# ActionScore
+dataAS = newdata['ActionScores']
