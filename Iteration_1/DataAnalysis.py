@@ -11,13 +11,18 @@ def LoadData(count):
     name = FileList[count]
     # uncomment and remove when not using interactive window
     # saveLocation = "./Iteration_1/Data/" + name + ".json"
-    saveLocation = "g:/Projects/DigitalTwin/Iteration_1/Data/" + name + ".json"
+    saveLocation = "D:/Projects/DigitalTwin/DigitalTwin/Iteration_1/Data/" + name + ".json"
+    # saveLocation = "g:/Projects/DigitalTwin/Iteration_1/Data/" + name + ".json"
+
     with open(saveLocation) as f:
         data = json.load(f)
         data['Session'] = name
+    # ScoredSteps
     dataSS = pd.json_normalize(data, 'ScoredSteps')
     dataSS['GameSessionId'] = data['Session']
-    return dataSS
+    '''# ActionScore
+    dataAS = pd.json_normalize(data['ScoredSteps'], 'ActionScores')'''
+    return dataSS  # , dataAS
 
 
 # %%
@@ -32,21 +37,14 @@ while count > 0:
         newdata = pd.concat([olddata, newdata])
         newdata = newdata.drop(columns=['Id'])
     olddata = newdata
+del olddata
+
+# ActionScore
+dataAS = newdata['ActionScores']
 
 
 # %%
 '''
-# scored steps df
-SSRandy = pd.json_normalize(DataRandy, 'ScoredSteps')
-SSRandy['GameSessionId'] = DataRandy['Session']
-SSDaan = pd.json_normalize(DataDaan, 'ScoredSteps')
-SSDaan['GameSessionId'] = DataDaan['Session']
-SSRoy = pd.json_normalize(DataRoy, 'ScoredSteps')
-SSRoy['GameSessionId'] = DataRoy['Session']
-Merged_SS = pd.concat([SSRandy, SSDaan, SSRoy], keys=[
-                      DataRandy['UserId'], DataDaan['UserId'], DataRoy['UserId']])
-Merged_SS = Merged_SS.drop(columns=['Id'])
-
 # ActionScores
 ASRandy = pd.json_normalize(DataRandy['ScoredSteps'], 'ActionScores')
 ASDaan = pd.json_normalize(DataDaan['ScoredSteps'], 'ActionScores')
