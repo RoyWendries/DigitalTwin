@@ -2,6 +2,8 @@
 import os
 import json
 import pandas as pd
+import time
+
 
 
 # %%
@@ -44,3 +46,5 @@ del olddata
 
 # ActionScore
 dataAS = newdata['ActionScores']
+
+newdata.to_parquet(time.strftime("%Y%m%d-%H%M%S") + '.parquet')
