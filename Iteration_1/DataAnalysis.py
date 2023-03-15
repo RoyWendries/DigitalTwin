@@ -2,6 +2,7 @@
 import os
 import json
 import pandas as pd
+from datetime import time, datetime
 
 
 # %%
@@ -14,7 +15,29 @@ def LoadData(count):
         data['Session'] = name
     dataSS = pd.json_normalize(data, 'ScoredSteps')
     dataSS['GameSessionId'] = data['Session']
+
+    # call function
+    dataSS = ActionTime(dataSS)
+    # dataSS = pd.concat([timeDelta, dataSS])
     return dataSS
+
+# %%
+# Add column for the time between actions
+
+
+def ActionTime(data):
+    timeDelta = []
+    startTime = data["StartTime"][0]
+    startTime = startTime[11::]
+    startTime = datetime.strptime(startTime, '%H:%M:%S')
+    stopTime = data["StopTime"]
+    for time in stopTime:
+        time = time[11::]
+        time = datetime.strptime(time, '%H:%M:%S')
+        time = time - startTime
+        timeDelta.append(str(time))
+    data["TimeDelta"] = timeDelta
+    return data
 
 
 # %%
