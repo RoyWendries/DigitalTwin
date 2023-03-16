@@ -1,0 +1,3729 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="00711b34-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on cooling tower heat exchanger and stop highlight" />
+			<date key="time:timestamp" value="2023-03-07T15:04:01+00:00" />
+			<int key="@@index" value="0" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on cooling tower heat exchanger and stop highlight" />
+			<date key="time:timestamp" value="2023-03-09T11:33:42+00:00" />
+			<int key="@@index" value="1" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on cooling tower heat exchanger and stop highlight" />
+			<date key="time:timestamp" value="2023-03-14T12:27:41+00:00" />
+			<int key="@@index" value="2" />
+			<int key="@@case_index" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="00d47918-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Find both heat exchangers" />
+			<date key="time:timestamp" value="2023-03-07T15:04:18+00:00" />
+			<int key="@@index" value="3" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Find both heat exchangers" />
+			<date key="time:timestamp" value="2023-03-09T11:33:55+00:00" />
+			<int key="@@index" value="4" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Find both heat exchangers" />
+			<date key="time:timestamp" value="2023-03-14T12:27:54+00:00" />
+			<int key="@@index" value="5" />
+			<int key="@@case_index" value="1" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="013889ce-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:04:05+00:00" />
+			<int key="@@index" value="6" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:33:44+00:00" />
+			<int key="@@index" value="7" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:27:39+00:00" />
+			<int key="@@index" value="8" />
+			<int key="@@case_index" value="2" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="01deaeb8-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Open the thermal bath lid - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:04:24+00:00" />
+			<int key="@@index" value="9" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the thermal bath lid - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:33:58+00:00" />
+			<int key="@@index" value="10" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the thermal bath lid - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:28:30+00:00" />
+			<int key="@@index" value="11" />
+			<int key="@@case_index" value="3" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="023fc101-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on any of the wrong parts" />
+			<date key="time:timestamp" value="2023-03-07T15:04:24+00:00" />
+			<int key="@@index" value="12" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any of the wrong parts" />
+			<date key="time:timestamp" value="2023-03-09T11:33:58+00:00" />
+			<int key="@@index" value="13" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any of the wrong parts" />
+			<date key="time:timestamp" value="2023-03-14T12:28:15+00:00" />
+			<int key="@@index" value="14" />
+			<int key="@@case_index" value="4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="031bee39-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Open the thermal bath lid" />
+			<date key="time:timestamp" value="2023-03-07T15:04:24+00:00" />
+			<int key="@@index" value="15" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the thermal bath lid" />
+			<date key="time:timestamp" value="2023-03-09T11:33:58+00:00" />
+			<int key="@@index" value="16" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the thermal bath lid" />
+			<date key="time:timestamp" value="2023-03-14T12:28:30+00:00" />
+			<int key="@@index" value="17" />
+			<int key="@@case_index" value="5" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="03763742-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:04:22+00:00" />
+			<int key="@@index" value="18" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:33:56+00:00" />
+			<int key="@@index" value="19" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:28:27+00:00" />
+			<int key="@@index" value="20" />
+			<int key="@@case_index" value="6" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="03fd7927-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Close the thermal bath output valve - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:04:35+00:00" />
+			<int key="@@index" value="21" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the thermal bath output valve - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:34:05+00:00" />
+			<int key="@@index" value="22" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the thermal bath output valve - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:28:52+00:00" />
+			<int key="@@index" value="23" />
+			<int key="@@case_index" value="7" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="046642d3-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on any of the wrong parts" />
+			<date key="time:timestamp" value="2023-03-07T15:04:35+00:00" />
+			<int key="@@index" value="24" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any of the wrong parts" />
+			<date key="time:timestamp" value="2023-03-09T11:34:00+00:00" />
+			<int key="@@index" value="25" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any of the wrong parts" />
+			<date key="time:timestamp" value="2023-03-14T12:28:38+00:00" />
+			<int key="@@index" value="26" />
+			<int key="@@case_index" value="8" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="0503e328-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Close the thermal bath drain valve" />
+			<date key="time:timestamp" value="2023-03-07T15:04:35+00:00" />
+			<int key="@@index" value="27" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the thermal bath drain valve" />
+			<date key="time:timestamp" value="2023-03-09T11:34:05+00:00" />
+			<int key="@@index" value="28" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the thermal bath drain valve" />
+			<date key="time:timestamp" value="2023-03-14T12:28:52+00:00" />
+			<int key="@@index" value="29" />
+			<int key="@@case_index" value="9" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="0564859c-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:04:31+00:00" />
+			<int key="@@index" value="30" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:34:01+00:00" />
+			<int key="@@index" value="31" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:28:48+00:00" />
+			<int key="@@index" value="32" />
+			<int key="@@case_index" value="10" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="05bbc156-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Connect the hose to the thermal bath - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:04:36+00:00" />
+			<int key="@@index" value="33" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="Connect the hose to the thermal bath - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:34:07+00:00" />
+			<int key="@@index" value="34" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="Connect the hose to the thermal bath - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:29:21+00:00" />
+			<int key="@@index" value="35" />
+			<int key="@@case_index" value="11" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="06b5dd84-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Connect the water hose to thermal bath" />
+			<date key="time:timestamp" value="2023-03-07T15:04:36+00:00" />
+			<int key="@@index" value="36" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="Connect the water hose to thermal bath" />
+			<date key="time:timestamp" value="2023-03-09T11:34:07+00:00" />
+			<int key="@@index" value="37" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="Connect the water hose to thermal bath" />
+			<date key="time:timestamp" value="2023-03-14T12:29:21+00:00" />
+			<int key="@@index" value="38" />
+			<int key="@@case_index" value="12" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="071f2ccf-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:04:36+00:00" />
+			<int key="@@index" value="39" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:34:05+00:00" />
+			<int key="@@index" value="40" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:29:16+00:00" />
+			<int key="@@index" value="41" />
+			<int key="@@case_index" value="13" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="0772dffd-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Fill up the thermal bath - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:04:41+00:00" />
+			<int key="@@index" value="42" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fill up the thermal bath - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:34:10+00:00" />
+			<int key="@@index" value="43" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fill up the thermal bath - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:29:52+00:00" />
+			<int key="@@index" value="44" />
+			<int key="@@case_index" value="14" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="084933cd-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Open the water supply valve" />
+			<date key="time:timestamp" value="2023-03-07T15:04:41+00:00" />
+			<int key="@@index" value="45" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the water supply valve" />
+			<date key="time:timestamp" value="2023-03-09T11:34:10+00:00" />
+			<int key="@@index" value="46" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the water supply valve" />
+			<date key="time:timestamp" value="2023-03-14T12:29:52+00:00" />
+			<int key="@@index" value="47" />
+			<int key="@@case_index" value="15" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="08ae082f-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:04:40+00:00" />
+			<int key="@@index" value="48" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:34:09+00:00" />
+			<int key="@@index" value="49" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:29:45+00:00" />
+			<int key="@@index" value="50" />
+			<int key="@@case_index" value="16" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="0939e2d4-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="When the thermal bath is filled, close the water supply valve - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:05:14+00:00" />
+			<int key="@@index" value="51" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="When the thermal bath is filled, close the water supply valve - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:34:44+00:00" />
+			<int key="@@index" value="52" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="When the thermal bath is filled, close the water supply valve - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:30:23+00:00" />
+			<int key="@@index" value="53" />
+			<int key="@@case_index" value="17" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="0997f452-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Try closing the water supply valve too soon" />
+			<date key="time:timestamp" value="2023-03-07T15:05:09+00:00" />
+			<int key="@@index" value="54" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="Try closing the water supply valve too soon" />
+			<date key="time:timestamp" value="2023-03-09T11:34:38+00:00" />
+			<int key="@@index" value="55" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="Try closing the water supply valve too soon" />
+			<date key="time:timestamp" value="2023-03-14T12:30:20+00:00" />
+			<int key="@@index" value="56" />
+			<int key="@@case_index" value="18" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="0a3821df-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Close the water supply valve when the thermal bath is 70% full" />
+			<date key="time:timestamp" value="2023-03-07T15:05:14+00:00" />
+			<int key="@@index" value="57" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the water supply valve when the thermal bath is 70% full" />
+			<date key="time:timestamp" value="2023-03-09T11:34:44+00:00" />
+			<int key="@@index" value="58" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the water supply valve when the thermal bath is 70% full" />
+			<date key="time:timestamp" value="2023-03-14T12:30:23+00:00" />
+			<int key="@@index" value="59" />
+			<int key="@@case_index" value="19" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="0b66fb2e-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="PlayerTooSlowThermalBathStep" />
+			<date key="time:timestamp" value="2023-03-07T15:05:10+00:00" />
+			<int key="@@index" value="60" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="PlayerTooSlowThermalBathStep" />
+			<date key="time:timestamp" value="2023-03-09T11:34:40+00:00" />
+			<int key="@@index" value="61" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="PlayerTooSlowThermalBathStep" />
+			<date key="time:timestamp" value="2023-03-14T12:30:20+00:00" />
+			<int key="@@index" value="62" />
+			<int key="@@case_index" value="20" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="0bca11b6-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:05:11+00:00" />
+			<int key="@@index" value="63" />
+			<int key="@@case_index" value="21" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:34:41+00:00" />
+			<int key="@@index" value="64" />
+			<int key="@@case_index" value="21" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:30:21+00:00" />
+			<int key="@@index" value="65" />
+			<int key="@@case_index" value="21" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="0c2b57a7-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Put away the water hose" />
+			<date key="time:timestamp" value="2023-03-07T15:05:23+00:00" />
+			<int key="@@index" value="66" />
+			<int key="@@case_index" value="22" />
+		</event>
+		<event>
+			<string key="concept:name" value="Put away the water hose" />
+			<date key="time:timestamp" value="2023-03-09T11:34:48+00:00" />
+			<int key="@@index" value="67" />
+			<int key="@@case_index" value="22" />
+		</event>
+		<event>
+			<string key="concept:name" value="Put away the water hose" />
+			<date key="time:timestamp" value="2023-03-14T12:30:35+00:00" />
+			<int key="@@index" value="68" />
+			<int key="@@case_index" value="22" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="0d881dc8-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Put away the hose, so that people don't trip on it" />
+			<date key="time:timestamp" value="2023-03-07T15:05:23+00:00" />
+			<int key="@@index" value="69" />
+			<int key="@@case_index" value="23" />
+		</event>
+		<event>
+			<string key="concept:name" value="Put away the hose, so that people don't trip on it" />
+			<date key="time:timestamp" value="2023-03-09T11:34:48+00:00" />
+			<int key="@@index" value="70" />
+			<int key="@@case_index" value="23" />
+		</event>
+		<event>
+			<string key="concept:name" value="Put away the hose, so that people don't trip on it" />
+			<date key="time:timestamp" value="2023-03-14T12:30:35+00:00" />
+			<int key="@@index" value="71" />
+			<int key="@@case_index" value="23" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="0dfd1bc9-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:05:19+00:00" />
+			<int key="@@index" value="72" />
+			<int key="@@case_index" value="24" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:34:45+00:00" />
+			<int key="@@index" value="73" />
+			<int key="@@case_index" value="24" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:30:32+00:00" />
+			<int key="@@index" value="74" />
+			<int key="@@case_index" value="24" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="0e5e5ec6-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Close the thermal bath lid - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:05:25+00:00" />
+			<int key="@@index" value="75" />
+			<int key="@@case_index" value="25" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the thermal bath lid - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:34:50+00:00" />
+			<int key="@@index" value="76" />
+			<int key="@@case_index" value="25" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the thermal bath lid - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:31:17+00:00" />
+			<int key="@@index" value="77" />
+			<int key="@@case_index" value="25" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="0f1a6ec4-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-07T15:05:25+00:00" />
+			<int key="@@index" value="78" />
+			<int key="@@case_index" value="26" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-09T11:34:50+00:00" />
+			<int key="@@index" value="79" />
+			<int key="@@case_index" value="26" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-14T12:31:17+00:00" />
+			<int key="@@index" value="80" />
+			<int key="@@case_index" value="26" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="0ff94140-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Close the thermal bath lid" />
+			<date key="time:timestamp" value="2023-03-07T15:05:25+00:00" />
+			<int key="@@index" value="81" />
+			<int key="@@case_index" value="27" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the thermal bath lid" />
+			<date key="time:timestamp" value="2023-03-09T11:34:50+00:00" />
+			<int key="@@index" value="82" />
+			<int key="@@case_index" value="27" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the thermal bath lid" />
+			<date key="time:timestamp" value="2023-03-14T12:31:17+00:00" />
+			<int key="@@index" value="83" />
+			<int key="@@case_index" value="27" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1087d38d-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:05:23+00:00" />
+			<int key="@@index" value="84" />
+			<int key="@@case_index" value="28" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:34:48+00:00" />
+			<int key="@@index" value="85" />
+			<int key="@@case_index" value="28" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:30:59+00:00" />
+			<int key="@@index" value="86" />
+			<int key="@@case_index" value="28" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="111870bd-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Switch on the thermal bath - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:05:37+00:00" />
+			<int key="@@index" value="87" />
+			<int key="@@case_index" value="29" />
+		</event>
+		<event>
+			<string key="concept:name" value="Switch on the thermal bath - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:34:53+00:00" />
+			<int key="@@index" value="88" />
+			<int key="@@case_index" value="29" />
+		</event>
+		<event>
+			<string key="concept:name" value="Switch on the thermal bath - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:31:32+00:00" />
+			<int key="@@index" value="89" />
+			<int key="@@case_index" value="29" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="11f06f77-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Turn the thermal bath switch" />
+			<date key="time:timestamp" value="2023-03-07T15:05:37+00:00" />
+			<int key="@@index" value="90" />
+			<int key="@@case_index" value="30" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn the thermal bath switch" />
+			<date key="time:timestamp" value="2023-03-09T11:34:53+00:00" />
+			<int key="@@index" value="91" />
+			<int key="@@case_index" value="30" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn the thermal bath switch" />
+			<date key="time:timestamp" value="2023-03-14T12:31:32+00:00" />
+			<int key="@@index" value="92" />
+			<int key="@@case_index" value="30" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1261c90c-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:05:35+00:00" />
+			<int key="@@index" value="93" />
+			<int key="@@case_index" value="31" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:34:51+00:00" />
+			<int key="@@index" value="94" />
+			<int key="@@case_index" value="31" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:31:30+00:00" />
+			<int key="@@index" value="95" />
+			<int key="@@case_index" value="31" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12f5f8bf-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Look at the thermal bath screen - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:05:42+00:00" />
+			<int key="@@index" value="96" />
+			<int key="@@case_index" value="32" />
+		</event>
+		<event>
+			<string key="concept:name" value="Look at the thermal bath screen - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:34:54+00:00" />
+			<int key="@@index" value="97" />
+			<int key="@@case_index" value="32" />
+		</event>
+		<event>
+			<string key="concept:name" value="Look at the thermal bath screen - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:31:37+00:00" />
+			<int key="@@index" value="98" />
+			<int key="@@case_index" value="32" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="139d41b0-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Look at the thermal bath screen" />
+			<date key="time:timestamp" value="2023-03-07T15:05:42+00:00" />
+			<int key="@@index" value="99" />
+			<int key="@@case_index" value="33" />
+		</event>
+		<event>
+			<string key="concept:name" value="Look at the thermal bath screen" />
+			<date key="time:timestamp" value="2023-03-09T11:34:54+00:00" />
+			<int key="@@index" value="100" />
+			<int key="@@case_index" value="33" />
+		</event>
+		<event>
+			<string key="concept:name" value="Look at the thermal bath screen" />
+			<date key="time:timestamp" value="2023-03-14T12:31:37+00:00" />
+			<int key="@@index" value="101" />
+			<int key="@@case_index" value="33" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1411b744-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:05:41+00:00" />
+			<int key="@@index" value="102" />
+			<int key="@@case_index" value="34" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:34:53+00:00" />
+			<int key="@@index" value="103" />
+			<int key="@@case_index" value="34" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:31:36+00:00" />
+			<int key="@@index" value="104" />
+			<int key="@@case_index" value="34" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1444f42f-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Turn on the thermal bath screen - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:05:46+00:00" />
+			<int key="@@index" value="105" />
+			<int key="@@case_index" value="35" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn on the thermal bath screen - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:35:06+00:00" />
+			<int key="@@index" value="106" />
+			<int key="@@case_index" value="35" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn on the thermal bath screen - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:31:41+00:00" />
+			<int key="@@index" value="107" />
+			<int key="@@case_index" value="35" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="14ba3391-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Interruptible intructions" />
+			<date key="time:timestamp" value="2023-03-07T15:05:46+00:00" />
+			<int key="@@index" value="108" />
+			<int key="@@case_index" value="36" />
+		</event>
+		<event>
+			<string key="concept:name" value="Interruptible intructions" />
+			<date key="time:timestamp" value="2023-03-09T11:34:59+00:00" />
+			<int key="@@index" value="109" />
+			<int key="@@case_index" value="36" />
+		</event>
+		<event>
+			<string key="concept:name" value="Interruptible intructions" />
+			<date key="time:timestamp" value="2023-03-14T12:31:41+00:00" />
+			<int key="@@index" value="110" />
+			<int key="@@case_index" value="36" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1519ad12-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Turn on the thermal bath screen" />
+			<date key="time:timestamp" value="2023-03-07T15:05:46+00:00" />
+			<int key="@@index" value="111" />
+			<int key="@@case_index" value="37" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn on the thermal bath screen" />
+			<date key="time:timestamp" value="2023-03-09T11:35:06+00:00" />
+			<int key="@@index" value="112" />
+			<int key="@@case_index" value="37" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn on the thermal bath screen" />
+			<date key="time:timestamp" value="2023-03-14T12:31:41+00:00" />
+			<int key="@@index" value="113" />
+			<int key="@@case_index" value="37" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1577fd24-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:05:46+00:00" />
+			<int key="@@index" value="114" />
+			<int key="@@case_index" value="38" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:35:06+00:00" />
+			<int key="@@index" value="115" />
+			<int key="@@case_index" value="38" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:31:41+00:00" />
+			<int key="@@index" value="116" />
+			<int key="@@case_index" value="38" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="15a8371e-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Turn on the thermal bath screen - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:05:49+00:00" />
+			<int key="@@index" value="117" />
+			<int key="@@case_index" value="39" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn on the thermal bath screen - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:35:07+00:00" />
+			<int key="@@index" value="118" />
+			<int key="@@case_index" value="39" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn on the thermal bath screen - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:31:50+00:00" />
+			<int key="@@index" value="119" />
+			<int key="@@case_index" value="39" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="161868d8-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Interruptible intructions" />
+			<date key="time:timestamp" value="2023-03-07T15:05:49+00:00" />
+			<int key="@@index" value="120" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="concept:name" value="Interruptible intructions" />
+			<date key="time:timestamp" value="2023-03-09T11:35:07+00:00" />
+			<int key="@@index" value="121" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="concept:name" value="Interruptible intructions" />
+			<date key="time:timestamp" value="2023-03-14T12:31:50+00:00" />
+			<int key="@@index" value="122" />
+			<int key="@@case_index" value="40" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="16a74650-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Set up the thermal bath temperature to 40 C" />
+			<date key="time:timestamp" value="2023-03-07T15:05:49+00:00" />
+			<int key="@@index" value="123" />
+			<int key="@@case_index" value="41" />
+		</event>
+		<event>
+			<string key="concept:name" value="Set up the thermal bath temperature to 40 C" />
+			<date key="time:timestamp" value="2023-03-09T11:35:07+00:00" />
+			<int key="@@index" value="124" />
+			<int key="@@case_index" value="41" />
+		</event>
+		<event>
+			<string key="concept:name" value="Set up the thermal bath temperature to 40 C" />
+			<date key="time:timestamp" value="2023-03-14T12:31:50+00:00" />
+			<int key="@@index" value="125" />
+			<int key="@@case_index" value="41" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="17095452-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:05:49+00:00" />
+			<int key="@@index" value="126" />
+			<int key="@@case_index" value="42" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:35:07+00:00" />
+			<int key="@@index" value="127" />
+			<int key="@@case_index" value="42" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:31:50+00:00" />
+			<int key="@@index" value="128" />
+			<int key="@@case_index" value="42" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="176c4e45-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Look away from the thermal bath screen - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:05:58+00:00" />
+			<int key="@@index" value="129" />
+			<int key="@@case_index" value="43" />
+		</event>
+		<event>
+			<string key="concept:name" value="Look away from the thermal bath screen - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:35:09+00:00" />
+			<int key="@@index" value="130" />
+			<int key="@@case_index" value="43" />
+		</event>
+		<event>
+			<string key="concept:name" value="Look away from the thermal bath screen - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:31:51+00:00" />
+			<int key="@@index" value="131" />
+			<int key="@@case_index" value="43" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1821bbda-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Look away from the thermal bath screen" />
+			<date key="time:timestamp" value="2023-03-07T15:05:58+00:00" />
+			<int key="@@index" value="132" />
+			<int key="@@case_index" value="44" />
+		</event>
+		<event>
+			<string key="concept:name" value="Look away from the thermal bath screen" />
+			<date key="time:timestamp" value="2023-03-09T11:35:09+00:00" />
+			<int key="@@index" value="133" />
+			<int key="@@case_index" value="44" />
+		</event>
+		<event>
+			<string key="concept:name" value="Look away from the thermal bath screen" />
+			<date key="time:timestamp" value="2023-03-14T12:31:51+00:00" />
+			<int key="@@index" value="134" />
+			<int key="@@case_index" value="44" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="18a6fe0d-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:05:57+00:00" />
+			<int key="@@index" value="135" />
+			<int key="@@case_index" value="45" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:35:08+00:00" />
+			<int key="@@index" value="136" />
+			<int key="@@case_index" value="45" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:31:50+00:00" />
+			<int key="@@index" value="137" />
+			<int key="@@case_index" value="45" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="190c5bdc-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Switch on the cooling tower - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:06:23+00:00" />
+			<int key="@@index" value="138" />
+			<int key="@@case_index" value="46" />
+		</event>
+		<event>
+			<string key="concept:name" value="Switch on the cooling tower - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:33:30+00:00" />
+			<int key="@@index" value="139" />
+			<int key="@@case_index" value="46" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1a45f400-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Switch on the cooling tower" />
+			<date key="time:timestamp" value="2023-03-07T15:06:23+00:00" />
+			<int key="@@index" value="140" />
+			<int key="@@case_index" value="47" />
+		</event>
+		<event>
+			<string key="concept:name" value="Switch on the cooling tower" />
+			<date key="time:timestamp" value="2023-03-14T12:33:30+00:00" />
+			<int key="@@index" value="141" />
+			<int key="@@case_index" value="47" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1a8785b0-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Open the temperature control power panel lid" />
+			<date key="time:timestamp" value="2023-03-07T15:06:07+00:00" />
+			<int key="@@index" value="142" />
+			<int key="@@case_index" value="48" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the temperature control power panel lid" />
+			<date key="time:timestamp" value="2023-03-14T12:33:14+00:00" />
+			<int key="@@index" value="143" />
+			<int key="@@case_index" value="48" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1af1100e-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:06:08+00:00" />
+			<int key="@@index" value="144" />
+			<int key="@@case_index" value="49" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:32:18+00:00" />
+			<int key="@@index" value="145" />
+			<int key="@@case_index" value="49" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1b90b26e-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Select the jacket pump - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:06:37+00:00" />
+			<int key="@@index" value="146" />
+			<int key="@@case_index" value="50" />
+		</event>
+		<event>
+			<string key="concept:name" value="Select the jacket pump - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:33:41+00:00" />
+			<int key="@@index" value="147" />
+			<int key="@@case_index" value="50" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1c3cc072-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on the computer monitor and zoom in" />
+			<date key="time:timestamp" value="2023-03-07T15:06:37+00:00" />
+			<int key="@@index" value="148" />
+			<int key="@@case_index" value="51" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the computer monitor and zoom in" />
+			<date key="time:timestamp" value="2023-03-14T12:33:41+00:00" />
+			<int key="@@index" value="149" />
+			<int key="@@case_index" value="51" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1ce01a4c-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:06:37+00:00" />
+			<int key="@@index" value="150" />
+			<int key="@@case_index" value="52" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:33:41+00:00" />
+			<int key="@@index" value="151" />
+			<int key="@@case_index" value="52" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1d7f6bc3-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Activate the jacket pump - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:06:49+00:00" />
+			<int key="@@index" value="152" />
+			<int key="@@case_index" value="53" />
+		</event>
+		<event>
+			<string key="concept:name" value="Activate the jacket pump - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:34:02+00:00" />
+			<int key="@@index" value="153" />
+			<int key="@@case_index" value="53" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1e2c8ef7-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Select on the jacket pump on the screen" />
+			<date key="time:timestamp" value="2023-03-07T15:06:49+00:00" />
+			<int key="@@index" value="154" />
+			<int key="@@case_index" value="54" />
+		</event>
+		<event>
+			<string key="concept:name" value="Select on the jacket pump on the screen" />
+			<date key="time:timestamp" value="2023-03-14T12:34:02+00:00" />
+			<int key="@@index" value="155" />
+			<int key="@@case_index" value="54" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1ea03776-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:06:49+00:00" />
+			<int key="@@index" value="156" />
+			<int key="@@case_index" value="55" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:34:02+00:00" />
+			<int key="@@index" value="157" />
+			<int key="@@case_index" value="55" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1f07b380-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Start up the jacket pump - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:07:00+00:00" />
+			<int key="@@index" value="158" />
+			<int key="@@case_index" value="56" />
+		</event>
+		<event>
+			<string key="concept:name" value="Start up the jacket pump - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:34:17+00:00" />
+			<int key="@@index" value="159" />
+			<int key="@@case_index" value="56" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1fb3e9f5-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Start jacket pump on the screen" />
+			<date key="time:timestamp" value="2023-03-07T15:07:00+00:00" />
+			<int key="@@index" value="160" />
+			<int key="@@case_index" value="57" />
+		</event>
+		<event>
+			<string key="concept:name" value="Start jacket pump on the screen" />
+			<date key="time:timestamp" value="2023-03-14T12:34:17+00:00" />
+			<int key="@@index" value="161" />
+			<int key="@@case_index" value="57" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="202515ab-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:07:00+00:00" />
+			<int key="@@index" value="162" />
+			<int key="@@case_index" value="58" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:34:17+00:00" />
+			<int key="@@index" value="163" />
+			<int key="@@case_index" value="58" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="20c73c2d-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Set up the temperature - general instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:07:13+00:00" />
+			<int key="@@index" value="164" />
+			<int key="@@case_index" value="59" />
+		</event>
+		<event>
+			<string key="concept:name" value="Set up the temperature - general instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:34:30+00:00" />
+			<int key="@@index" value="165" />
+			<int key="@@case_index" value="59" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="21346824-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Set up the temperature maximum - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:07:13+00:00" />
+			<int key="@@index" value="166" />
+			<int key="@@case_index" value="60" />
+		</event>
+		<event>
+			<string key="concept:name" value="Set up the temperature maximum - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:34:41+00:00" />
+			<int key="@@index" value="167" />
+			<int key="@@case_index" value="60" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="21d9028b-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on the temperature control window" />
+			<date key="time:timestamp" value="2023-03-07T15:07:13+00:00" />
+			<int key="@@index" value="168" />
+			<int key="@@case_index" value="61" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the temperature control window" />
+			<date key="time:timestamp" value="2023-03-14T12:34:41+00:00" />
+			<int key="@@index" value="169" />
+			<int key="@@case_index" value="61" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2250482b-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:07:13+00:00" />
+			<int key="@@index" value="170" />
+			<int key="@@case_index" value="62" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:34:41+00:00" />
+			<int key="@@index" value="171" />
+			<int key="@@case_index" value="62" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="22b7b9fb-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Set the temperature to 30 degrees - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:07:19+00:00" />
+			<int key="@@index" value="172" />
+			<int key="@@case_index" value="63" />
+		</event>
+		<event>
+			<string key="concept:name" value="Set the temperature to 30 degrees - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:34:55+00:00" />
+			<int key="@@index" value="173" />
+			<int key="@@case_index" value="63" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="231c67cd-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Interruptible intructions" />
+			<date key="time:timestamp" value="2023-03-07T15:07:15+00:00" />
+			<int key="@@index" value="174" />
+			<int key="@@case_index" value="64" />
+		</event>
+		<event>
+			<string key="concept:name" value="Interruptible intructions" />
+			<date key="time:timestamp" value="2023-03-14T12:34:54+00:00" />
+			<int key="@@index" value="175" />
+			<int key="@@case_index" value="64" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="23bfa9fc-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Set the temperature to 30 degrees" />
+			<date key="time:timestamp" value="2023-03-07T15:07:19+00:00" />
+			<int key="@@index" value="176" />
+			<int key="@@case_index" value="65" />
+		</event>
+		<event>
+			<string key="concept:name" value="Set the temperature to 30 degrees" />
+			<date key="time:timestamp" value="2023-03-14T12:34:55+00:00" />
+			<int key="@@index" value="177" />
+			<int key="@@case_index" value="65" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="24360be8-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:07:19+00:00" />
+			<int key="@@index" value="178" />
+			<int key="@@case_index" value="66" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:34:55+00:00" />
+			<int key="@@index" value="179" />
+			<int key="@@case_index" value="66" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="249e7123-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="The process is now running, go to system room - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:07:33+00:00" />
+			<int key="@@index" value="180" />
+			<int key="@@case_index" value="67" />
+		</event>
+		<event>
+			<string key="concept:name" value="The process is now running, go to system room - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:35:13+00:00" />
+			<int key="@@index" value="181" />
+			<int key="@@case_index" value="67" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="253dbd9b-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Wait until player comes close to the pump" />
+			<date key="time:timestamp" value="2023-03-07T15:07:33+00:00" />
+			<int key="@@index" value="182" />
+			<int key="@@case_index" value="68" />
+		</event>
+		<event>
+			<string key="concept:name" value="Wait until player comes close to the pump" />
+			<date key="time:timestamp" value="2023-03-14T12:35:13+00:00" />
+			<int key="@@index" value="183" />
+			<int key="@@case_index" value="68" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="25c362d2-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:07:33+00:00" />
+			<int key="@@index" value="184" />
+			<int key="@@case_index" value="69" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:35:13+00:00" />
+			<int key="@@index" value="185" />
+			<int key="@@case_index" value="69" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="26bc7b57-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Somethings is wrong" />
+			<date key="time:timestamp" value="2023-03-07T15:07:45+00:00" />
+			<int key="@@index" value="186" />
+			<int key="@@case_index" value="70" />
+		</event>
+		<event>
+			<string key="concept:name" value="Somethings is wrong" />
+			<date key="time:timestamp" value="2023-03-14T12:35:25+00:00" />
+			<int key="@@index" value="187" />
+			<int key="@@case_index" value="70" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27c427c2-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on computer screen" />
+			<date key="time:timestamp" value="2023-03-07T15:07:47+00:00" />
+			<int key="@@index" value="188" />
+			<int key="@@case_index" value="71" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on computer screen" />
+			<date key="time:timestamp" value="2023-03-14T12:35:26+00:00" />
+			<int key="@@index" value="189" />
+			<int key="@@case_index" value="71" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="290cfaeb-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Go back to the main screen - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:07:52+00:00" />
+			<int key="@@index" value="190" />
+			<int key="@@case_index" value="72" />
+		</event>
+		<event>
+			<string key="concept:name" value="Go back to the main screen - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:35:32+00:00" />
+			<int key="@@index" value="191" />
+			<int key="@@case_index" value="72" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29722d54-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Shut down the jacket pump - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:08:06+00:00" />
+			<int key="@@index" value="192" />
+			<int key="@@case_index" value="73" />
+		</event>
+		<event>
+			<string key="concept:name" value="Shut down the jacket pump - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:35:52+00:00" />
+			<int key="@@index" value="193" />
+			<int key="@@case_index" value="73" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2a14f0ea-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Shut down jacket pump on the screen" />
+			<date key="time:timestamp" value="2023-03-07T15:08:06+00:00" />
+			<int key="@@index" value="194" />
+			<int key="@@case_index" value="74" />
+		</event>
+		<event>
+			<string key="concept:name" value="Shut down jacket pump on the screen" />
+			<date key="time:timestamp" value="2023-03-14T12:35:52+00:00" />
+			<int key="@@index" value="195" />
+			<int key="@@case_index" value="74" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2c7881e5-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:08:06+00:00" />
+			<int key="@@index" value="196" />
+			<int key="@@case_index" value="75" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:35:52+00:00" />
+			<int key="@@index" value="197" />
+			<int key="@@case_index" value="75" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2d971b13-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Switch off the agitator - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:08:17+00:00" />
+			<int key="@@index" value="198" />
+			<int key="@@case_index" value="76" />
+		</event>
+		<event>
+			<string key="concept:name" value="Switch off the agitator - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:36:04+00:00" />
+			<int key="@@index" value="199" />
+			<int key="@@case_index" value="76" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2e410914-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Stop the agitator on the screen" />
+			<date key="time:timestamp" value="2023-03-07T15:08:17+00:00" />
+			<int key="@@index" value="200" />
+			<int key="@@case_index" value="77" />
+		</event>
+		<event>
+			<string key="concept:name" value="Stop the agitator on the screen" />
+			<date key="time:timestamp" value="2023-03-14T12:36:04+00:00" />
+			<int key="@@index" value="201" />
+			<int key="@@case_index" value="77" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2ebff8d3-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:08:17+00:00" />
+			<int key="@@index" value="202" />
+			<int key="@@case_index" value="78" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:36:04+00:00" />
+			<int key="@@index" value="203" />
+			<int key="@@case_index" value="78" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2f298cea-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Turn off the pump - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:08:29+00:00" />
+			<int key="@@index" value="204" />
+			<int key="@@case_index" value="79" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn off the pump - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:36:38+00:00" />
+			<int key="@@index" value="205" />
+			<int key="@@case_index" value="79" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2ffa9b9a-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Stop pump 2 on the screen" />
+			<date key="time:timestamp" value="2023-03-07T15:08:29+00:00" />
+			<int key="@@index" value="206" />
+			<int key="@@case_index" value="80" />
+		</event>
+		<event>
+			<string key="concept:name" value="Stop pump 2 on the screen" />
+			<date key="time:timestamp" value="2023-03-14T12:36:38+00:00" />
+			<int key="@@index" value="207" />
+			<int key="@@case_index" value="80" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="306f3541-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:08:29+00:00" />
+			<int key="@@index" value="208" />
+			<int key="@@case_index" value="81" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:36:34+00:00" />
+			<int key="@@index" value="209" />
+			<int key="@@case_index" value="81" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="30ed8fd7-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Drain the water out of the vessel  - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:08:55+00:00" />
+			<int key="@@index" value="210" />
+			<int key="@@case_index" value="82" />
+		</event>
+		<event>
+			<string key="concept:name" value="Drain the water out of the vessel  - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:37:11+00:00" />
+			<int key="@@index" value="211" />
+			<int key="@@case_index" value="82" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="322eacc9-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Open the water vessel drain valve" />
+			<date key="time:timestamp" value="2023-03-07T15:08:55+00:00" />
+			<int key="@@index" value="212" />
+			<int key="@@case_index" value="83" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the water vessel drain valve" />
+			<date key="time:timestamp" value="2023-03-14T12:37:11+00:00" />
+			<int key="@@index" value="213" />
+			<int key="@@case_index" value="83" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="32cbc1e9-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:08:51+00:00" />
+			<int key="@@index" value="214" />
+			<int key="@@case_index" value="84" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:37:05+00:00" />
+			<int key="@@index" value="215" />
+			<int key="@@case_index" value="84" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="33bcf0e0-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Check the thermal bath temperature  - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:09:11+00:00" />
+			<int key="@@index" value="216" />
+			<int key="@@case_index" value="85" />
+		</event>
+		<event>
+			<string key="concept:name" value="Check the thermal bath temperature  - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:37:34+00:00" />
+			<int key="@@index" value="217" />
+			<int key="@@case_index" value="85" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="34bb527c-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Check the thermal bath water temperature" />
+			<date key="time:timestamp" value="2023-03-07T15:09:11+00:00" />
+			<int key="@@index" value="218" />
+			<int key="@@case_index" value="86" />
+		</event>
+		<event>
+			<string key="concept:name" value="Check the thermal bath water temperature" />
+			<date key="time:timestamp" value="2023-03-14T12:37:34+00:00" />
+			<int key="@@index" value="219" />
+			<int key="@@case_index" value="86" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="35b26894-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Try opening the thermal bath drain valve" />
+			<date key="time:timestamp" value="2023-03-07T15:09:11+00:00" />
+			<int key="@@index" value="220" />
+			<int key="@@case_index" value="87" />
+		</event>
+		<event>
+			<string key="concept:name" value="Try opening the thermal bath drain valve" />
+			<date key="time:timestamp" value="2023-03-14T12:37:26+00:00" />
+			<int key="@@index" value="221" />
+			<int key="@@case_index" value="87" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="362e4531-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:09:01+00:00" />
+			<int key="@@index" value="222" />
+			<int key="@@case_index" value="88" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:37:24+00:00" />
+			<int key="@@index" value="223" />
+			<int key="@@case_index" value="88" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="369f9ee4-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Confirm that the thermal bath water temperature is safe to release - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:09:20+00:00" />
+			<int key="@@index" value="224" />
+			<int key="@@case_index" value="89" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm that the thermal bath water temperature is safe to release - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:37:48+00:00" />
+			<int key="@@index" value="225" />
+			<int key="@@case_index" value="89" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="376f5163-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Correct questionnaire answer" />
+			<date key="time:timestamp" value="2023-03-07T15:09:20+00:00" />
+			<int key="@@index" value="226" />
+			<int key="@@case_index" value="90" />
+		</event>
+		<event>
+			<string key="concept:name" value="Correct questionnaire answer" />
+			<date key="time:timestamp" value="2023-03-14T12:37:48+00:00" />
+			<int key="@@index" value="227" />
+			<int key="@@case_index" value="90" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3832ac93-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Incorrect questionnaire answer" />
+			<date key="time:timestamp" value="2023-03-07T15:09:20+00:00" />
+			<int key="@@index" value="228" />
+			<int key="@@case_index" value="91" />
+		</event>
+		<event>
+			<string key="concept:name" value="Incorrect questionnaire answer" />
+			<date key="time:timestamp" value="2023-03-14T12:37:48+00:00" />
+			<int key="@@index" value="229" />
+			<int key="@@case_index" value="91" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="38b0cd79-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting questionnaire" />
+			<date key="time:timestamp" value="2023-03-07T15:09:20+00:00" />
+			<int key="@@index" value="230" />
+			<int key="@@case_index" value="92" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting questionnaire" />
+			<date key="time:timestamp" value="2023-03-14T12:37:40+00:00" />
+			<int key="@@index" value="231" />
+			<int key="@@case_index" value="92" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3989f855-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Drain the water out of the thermal bath - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:09:35+00:00" />
+			<int key="@@index" value="232" />
+			<int key="@@case_index" value="93" />
+		</event>
+		<event>
+			<string key="concept:name" value="Drain the water out of the thermal bath - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:38:20+00:00" />
+			<int key="@@index" value="233" />
+			<int key="@@case_index" value="93" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3aed40f3-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Open the thermal bath drain valve" />
+			<date key="time:timestamp" value="2023-03-07T15:09:35+00:00" />
+			<int key="@@index" value="234" />
+			<int key="@@case_index" value="94" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the thermal bath drain valve" />
+			<date key="time:timestamp" value="2023-03-14T12:38:20+00:00" />
+			<int key="@@index" value="235" />
+			<int key="@@case_index" value="94" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3b708312-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:09:23+00:00" />
+			<int key="@@index" value="236" />
+			<int key="@@case_index" value="95" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:38:07+00:00" />
+			<int key="@@index" value="237" />
+			<int key="@@case_index" value="95" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3c01424d-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Shut off the thermal bath - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:09:49+00:00" />
+			<int key="@@index" value="238" />
+			<int key="@@case_index" value="96" />
+		</event>
+		<event>
+			<string key="concept:name" value="Shut off the thermal bath - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:38:34+00:00" />
+			<int key="@@index" value="239" />
+			<int key="@@case_index" value="96" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3cbea545-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Switch off the thermal bath control screen" />
+			<date key="time:timestamp" value="2023-03-07T15:09:49+00:00" />
+			<int key="@@index" value="240" />
+			<int key="@@case_index" value="97" />
+		</event>
+		<event>
+			<string key="concept:name" value="Switch off the thermal bath control screen" />
+			<date key="time:timestamp" value="2023-03-14T12:38:34+00:00" />
+			<int key="@@index" value="241" />
+			<int key="@@case_index" value="97" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3d406ed4-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:09:48+00:00" />
+			<int key="@@index" value="242" />
+			<int key="@@case_index" value="98" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:38:32+00:00" />
+			<int key="@@index" value="243" />
+			<int key="@@case_index" value="98" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3dcd5f3e-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Shut off the cooling tower - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:09:59+00:00" />
+			<int key="@@index" value="244" />
+			<int key="@@case_index" value="99" />
+		</event>
+		<event>
+			<string key="concept:name" value="Shut off the cooling tower - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:38:56+00:00" />
+			<int key="@@index" value="245" />
+			<int key="@@case_index" value="99" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3e1724fb-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Open the temperature control power panel lid" />
+			<date key="time:timestamp" value="2023-03-07T15:09:59+00:00" />
+			<int key="@@index" value="246" />
+			<int key="@@case_index" value="100" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the temperature control power panel lid" />
+			<date key="time:timestamp" value="2023-03-14T12:38:56+00:00" />
+			<int key="@@index" value="247" />
+			<int key="@@case_index" value="100" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3ed27738-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Switch off the cooling tower" />
+			<date key="time:timestamp" value="2023-03-07T15:09:59+00:00" />
+			<int key="@@index" value="248" />
+			<int key="@@case_index" value="101" />
+		</event>
+		<event>
+			<string key="concept:name" value="Switch off the cooling tower" />
+			<date key="time:timestamp" value="2023-03-14T12:38:56+00:00" />
+			<int key="@@index" value="249" />
+			<int key="@@case_index" value="101" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3f5361f3-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:09:57+00:00" />
+			<int key="@@index" value="250" />
+			<int key="@@case_index" value="102" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:38:55+00:00" />
+			<int key="@@index" value="251" />
+			<int key="@@case_index" value="102" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3fe52133-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Shut off the main power panel - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:10:10+00:00" />
+			<int key="@@index" value="252" />
+			<int key="@@case_index" value="103" />
+		</event>
+		<event>
+			<string key="concept:name" value="Shut off the main power panel - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:39:15+00:00" />
+			<int key="@@index" value="253" />
+			<int key="@@case_index" value="103" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="40c0c280-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Turn off the power panel switch" />
+			<date key="time:timestamp" value="2023-03-07T15:10:10+00:00" />
+			<int key="@@index" value="254" />
+			<int key="@@case_index" value="104" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn off the power panel switch" />
+			<date key="time:timestamp" value="2023-03-14T12:39:15+00:00" />
+			<int key="@@index" value="255" />
+			<int key="@@case_index" value="104" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="41493435-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:10:06+00:00" />
+			<int key="@@index" value="256" />
+			<int key="@@case_index" value="105" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:39:11+00:00" />
+			<int key="@@index" value="257" />
+			<int key="@@case_index" value="105" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="42db25de-8820-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="End level" />
+			<date key="time:timestamp" value="2023-03-07T15:10:33+00:00" />
+			<int key="@@index" value="258" />
+			<int key="@@case_index" value="106" />
+		</event>
+		<event>
+			<string key="concept:name" value="End level" />
+			<date key="time:timestamp" value="2023-03-14T12:39:38+00:00" />
+			<int key="@@index" value="259" />
+			<int key="@@case_index" value="106" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="9d28ccb3-8e6d-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on the computer monitor and zoom in" />
+			<date key="time:timestamp" value="2023-03-07T15:00:56+00:00" />
+			<int key="@@index" value="260" />
+			<int key="@@case_index" value="107" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the computer monitor and zoom in" />
+			<date key="time:timestamp" value="2023-03-09T11:31:20+00:00" />
+			<int key="@@index" value="261" />
+			<int key="@@case_index" value="107" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the computer monitor and zoom in" />
+			<date key="time:timestamp" value="2023-03-14T12:20:40+00:00" />
+			<int key="@@index" value="262" />
+			<int key="@@case_index" value="107" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d6da1034-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Setup the level" />
+			<date key="time:timestamp" value="2023-03-07T14:59:27+00:00" />
+			<int key="@@index" value="263" />
+			<int key="@@case_index" value="108" />
+		</event>
+		<event>
+			<string key="concept:name" value="Setup the level" />
+			<date key="time:timestamp" value="2023-03-09T11:29:17+00:00" />
+			<int key="@@index" value="264" />
+			<int key="@@case_index" value="108" />
+		</event>
+		<event>
+			<string key="concept:name" value="Setup the level" />
+			<date key="time:timestamp" value="2023-03-14T12:16:08+00:00" />
+			<int key="@@index" value="265" />
+			<int key="@@case_index" value="108" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d72443fa-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Every time player clicks on any valve, play mechanical sound" />
+			<date key="time:timestamp" value="2023-03-07T15:10:33+00:00" />
+			<int key="@@index" value="266" />
+			<int key="@@case_index" value="109" />
+		</event>
+		<event>
+			<string key="concept:name" value="Every time player clicks on any valve, play mechanical sound" />
+			<date key="time:timestamp" value="2023-03-14T12:39:38+00:00" />
+			<int key="@@index" value="267" />
+			<int key="@@case_index" value="109" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d751a459-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Every time player turns the power switch, play switch sound" />
+			<date key="time:timestamp" value="2023-03-07T15:10:33+00:00" />
+			<int key="@@index" value="268" />
+			<int key="@@case_index" value="110" />
+		</event>
+		<event>
+			<string key="concept:name" value="Every time player turns the power switch, play switch sound" />
+			<date key="time:timestamp" value="2023-03-14T12:39:38+00:00" />
+			<int key="@@index" value="269" />
+			<int key="@@case_index" value="110" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d78225d8-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Every time player turns the cooling control switch, play switch sound" />
+			<date key="time:timestamp" value="2023-03-07T15:10:33+00:00" />
+			<int key="@@index" value="270" />
+			<int key="@@case_index" value="111" />
+		</event>
+		<event>
+			<string key="concept:name" value="Every time player turns the cooling control switch, play switch sound" />
+			<date key="time:timestamp" value="2023-03-14T12:39:38+00:00" />
+			<int key="@@index" value="271" />
+			<int key="@@case_index" value="111" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d7e9c2bf-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Every time player clicks on the restart button, play click sound" />
+			<date key="time:timestamp" value="2023-03-07T15:10:33+00:00" />
+			<int key="@@index" value="272" />
+			<int key="@@case_index" value="112" />
+		</event>
+		<event>
+			<string key="concept:name" value="Every time player clicks on the restart button, play click sound" />
+			<date key="time:timestamp" value="2023-03-14T12:39:38+00:00" />
+			<int key="@@index" value="273" />
+			<int key="@@case_index" value="112" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d8259f09-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Every time player clicks on glass door, play sliding sound" />
+			<date key="time:timestamp" value="2023-03-07T15:10:33+00:00" />
+			<int key="@@index" value="274" />
+			<int key="@@case_index" value="113" />
+		</event>
+		<event>
+			<string key="concept:name" value="Every time player clicks on glass door, play sliding sound" />
+			<date key="time:timestamp" value="2023-03-14T12:39:38+00:00" />
+			<int key="@@index" value="275" />
+			<int key="@@case_index" value="113" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d84eff10-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Every time player clicks on water supply valve play squeaky sound" />
+			<date key="time:timestamp" value="2023-03-07T15:10:33+00:00" />
+			<int key="@@index" value="276" />
+			<int key="@@case_index" value="114" />
+		</event>
+		<event>
+			<string key="concept:name" value="Every time player clicks on water supply valve play squeaky sound" />
+			<date key="time:timestamp" value="2023-03-14T12:39:38+00:00" />
+			<int key="@@index" value="277" />
+			<int key="@@case_index" value="114" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d886018a-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Every time player clicks on thermal bath lid, play metal sound" />
+			<date key="time:timestamp" value="2023-03-07T15:10:33+00:00" />
+			<int key="@@index" value="278" />
+			<int key="@@case_index" value="115" />
+		</event>
+		<event>
+			<string key="concept:name" value="Every time player clicks on thermal bath lid, play metal sound" />
+			<date key="time:timestamp" value="2023-03-14T12:39:38+00:00" />
+			<int key="@@index" value="279" />
+			<int key="@@case_index" value="115" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d8d3c9fc-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Every time player clicks on any of the wrong buttons, get feedback" />
+			<date key="time:timestamp" value="2023-03-07T15:10:33+00:00" />
+			<int key="@@index" value="280" />
+			<int key="@@case_index" value="116" />
+		</event>
+		<event>
+			<string key="concept:name" value="Every time player clicks on any of the wrong buttons, get feedback" />
+			<date key="time:timestamp" value="2023-03-14T12:39:38+00:00" />
+			<int key="@@index" value="281" />
+			<int key="@@case_index" value="116" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d90227fd-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Introduction" />
+			<date key="time:timestamp" value="2023-03-07T14:59:39+00:00" />
+			<int key="@@index" value="282" />
+			<int key="@@case_index" value="117" />
+		</event>
+		<event>
+			<string key="concept:name" value="Introduction" />
+			<date key="time:timestamp" value="2023-03-09T11:29:25+00:00" />
+			<int key="@@index" value="283" />
+			<int key="@@case_index" value="117" />
+		</event>
+		<event>
+			<string key="concept:name" value="Introduction" />
+			<date key="time:timestamp" value="2023-03-14T12:16:15+00:00" />
+			<int key="@@index" value="284" />
+			<int key="@@case_index" value="117" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d92b96e6-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Turn the switch on the power panel - instructions" />
+			<date key="time:timestamp" value="2023-03-07T14:59:53+00:00" />
+			<int key="@@index" value="285" />
+			<int key="@@case_index" value="118" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn the switch on the power panel - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:29:57+00:00" />
+			<int key="@@index" value="286" />
+			<int key="@@case_index" value="118" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn the switch on the power panel - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:17:24+00:00" />
+			<int key="@@index" value="287" />
+			<int key="@@case_index" value="118" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d95af41d-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Continued optional interruptible instructions" />
+			<date key="time:timestamp" value="2023-03-07T14:59:53+00:00" />
+			<int key="@@index" value="288" />
+			<int key="@@case_index" value="119" />
+		</event>
+		<event>
+			<string key="concept:name" value="Continued optional interruptible instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:29:45+00:00" />
+			<int key="@@index" value="289" />
+			<int key="@@case_index" value="119" />
+		</event>
+		<event>
+			<string key="concept:name" value="Continued optional interruptible instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:16:38+00:00" />
+			<int key="@@index" value="290" />
+			<int key="@@case_index" value="119" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d98d02dd-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Turn the switch on the power panel" />
+			<date key="time:timestamp" value="2023-03-07T14:59:53+00:00" />
+			<int key="@@index" value="291" />
+			<int key="@@case_index" value="120" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn the switch on the power panel" />
+			<date key="time:timestamp" value="2023-03-09T11:29:57+00:00" />
+			<int key="@@index" value="292" />
+			<int key="@@case_index" value="120" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn the switch on the power panel" />
+			<date key="time:timestamp" value="2023-03-14T12:17:24+00:00" />
+			<int key="@@index" value="293" />
+			<int key="@@case_index" value="120" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="d9c318c5-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T14:59:53+00:00" />
+			<int key="@@index" value="294" />
+			<int key="@@case_index" value="121" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:29:57+00:00" />
+			<int key="@@index" value="295" />
+			<int key="@@case_index" value="121" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:16:58+00:00" />
+			<int key="@@index" value="296" />
+			<int key="@@case_index" value="121" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="da27126e-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Push the reset button (wrong)" />
+			<date key="time:timestamp" value="2023-03-07T14:59:53+00:00" />
+			<int key="@@index" value="297" />
+			<int key="@@case_index" value="122" />
+		</event>
+		<event>
+			<string key="concept:name" value="Push the reset button (wrong)" />
+			<date key="time:timestamp" value="2023-03-09T11:29:57+00:00" />
+			<int key="@@index" value="298" />
+			<int key="@@case_index" value="122" />
+		</event>
+		<event>
+			<string key="concept:name" value="Push the reset button (wrong)" />
+			<date key="time:timestamp" value="2023-03-14T12:17:24+00:00" />
+			<int key="@@index" value="299" />
+			<int key="@@case_index" value="122" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="da59fd2f-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Push the reset button - instructions" />
+			<date key="time:timestamp" value="2023-03-07T14:59:57+00:00" />
+			<int key="@@index" value="300" />
+			<int key="@@case_index" value="123" />
+		</event>
+		<event>
+			<string key="concept:name" value="Push the reset button - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:30:05+00:00" />
+			<int key="@@index" value="301" />
+			<int key="@@case_index" value="123" />
+		</event>
+		<event>
+			<string key="concept:name" value="Push the reset button - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:17:48+00:00" />
+			<int key="@@index" value="302" />
+			<int key="@@case_index" value="123" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="da951f40-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Push the reset button on the power panel" />
+			<date key="time:timestamp" value="2023-03-07T14:59:57+00:00" />
+			<int key="@@index" value="303" />
+			<int key="@@case_index" value="124" />
+		</event>
+		<event>
+			<string key="concept:name" value="Push the reset button on the power panel" />
+			<date key="time:timestamp" value="2023-03-09T11:30:05+00:00" />
+			<int key="@@index" value="304" />
+			<int key="@@case_index" value="124" />
+		</event>
+		<event>
+			<string key="concept:name" value="Push the reset button on the power panel" />
+			<date key="time:timestamp" value="2023-03-14T12:17:48+00:00" />
+			<int key="@@index" value="305" />
+			<int key="@@case_index" value="124" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="dac0c4cc-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T14:59:57+00:00" />
+			<int key="@@index" value="306" />
+			<int key="@@case_index" value="125" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:30:05+00:00" />
+			<int key="@@index" value="307" />
+			<int key="@@case_index" value="125" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:17:47+00:00" />
+			<int key="@@index" value="308" />
+			<int key="@@case_index" value="125" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="db3b2bb3-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Turn on the power of the pump system" />
+			<date key="time:timestamp" value="2023-03-07T15:00:01+00:00" />
+			<int key="@@index" value="309" />
+			<int key="@@case_index" value="126" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn on the power of the pump system" />
+			<date key="time:timestamp" value="2023-03-09T11:30:09+00:00" />
+			<int key="@@index" value="310" />
+			<int key="@@case_index" value="126" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turn on the power of the pump system" />
+			<date key="time:timestamp" value="2023-03-14T12:17:52+00:00" />
+			<int key="@@index" value="311" />
+			<int key="@@case_index" value="126" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="db70d491-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Connect the water hose - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:00:27+00:00" />
+			<int key="@@index" value="312" />
+			<int key="@@case_index" value="127" />
+		</event>
+		<event>
+			<string key="concept:name" value="Connect the water hose - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:30:43+00:00" />
+			<int key="@@index" value="313" />
+			<int key="@@case_index" value="127" />
+		</event>
+		<event>
+			<string key="concept:name" value="Connect the water hose - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:19:08+00:00" />
+			<int key="@@index" value="314" />
+			<int key="@@case_index" value="127" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="db9942ed-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Continued optional interruptible instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:00:24+00:00" />
+			<int key="@@index" value="315" />
+			<int key="@@case_index" value="128" />
+		</event>
+		<event>
+			<string key="concept:name" value="Continued optional interruptible instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:30:26+00:00" />
+			<int key="@@index" value="316" />
+			<int key="@@case_index" value="128" />
+		</event>
+		<event>
+			<string key="concept:name" value="Continued optional interruptible instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:18:15+00:00" />
+			<int key="@@index" value="317" />
+			<int key="@@case_index" value="128" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="dbf7637a-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-07T15:00:27+00:00" />
+			<int key="@@index" value="318" />
+			<int key="@@case_index" value="129" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-09T11:30:43+00:00" />
+			<int key="@@index" value="319" />
+			<int key="@@case_index" value="129" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-14T12:19:08+00:00" />
+			<int key="@@index" value="320" />
+			<int key="@@case_index" value="129" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="dce05863-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on the water hose" />
+			<date key="time:timestamp" value="2023-03-07T15:00:27+00:00" />
+			<int key="@@index" value="321" />
+			<int key="@@case_index" value="130" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the water hose" />
+			<date key="time:timestamp" value="2023-03-09T11:30:33+00:00" />
+			<int key="@@index" value="322" />
+			<int key="@@case_index" value="130" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the water hose" />
+			<date key="time:timestamp" value="2023-03-14T12:18:58+00:00" />
+			<int key="@@index" value="323" />
+			<int key="@@case_index" value="130" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="dd76c12e-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Correct questionnaire answer" />
+			<date key="time:timestamp" value="2023-03-07T15:00:27+00:00" />
+			<int key="@@index" value="324" />
+			<int key="@@case_index" value="131" />
+		</event>
+		<event>
+			<string key="concept:name" value="Correct questionnaire answer" />
+			<date key="time:timestamp" value="2023-03-09T11:30:43+00:00" />
+			<int key="@@index" value="325" />
+			<int key="@@case_index" value="131" />
+		</event>
+		<event>
+			<string key="concept:name" value="Correct questionnaire answer" />
+			<date key="time:timestamp" value="2023-03-14T12:19:08+00:00" />
+			<int key="@@index" value="326" />
+			<int key="@@case_index" value="131" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="de45d864-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Incorrect questionnaire answer" />
+			<date key="time:timestamp" value="2023-03-07T15:00:27+00:00" />
+			<int key="@@index" value="327" />
+			<int key="@@case_index" value="132" />
+		</event>
+		<event>
+			<string key="concept:name" value="Incorrect questionnaire answer" />
+			<date key="time:timestamp" value="2023-03-09T11:30:43+00:00" />
+			<int key="@@index" value="328" />
+			<int key="@@case_index" value="132" />
+		</event>
+		<event>
+			<string key="concept:name" value="Incorrect questionnaire answer" />
+			<date key="time:timestamp" value="2023-03-14T12:19:08+00:00" />
+			<int key="@@index" value="329" />
+			<int key="@@case_index" value="132" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="de88814b-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting questionnaire" />
+			<date key="time:timestamp" value="2023-03-07T15:00:26+00:00" />
+			<int key="@@index" value="330" />
+			<int key="@@case_index" value="133" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting questionnaire" />
+			<date key="time:timestamp" value="2023-03-09T11:30:33+00:00" />
+			<int key="@@index" value="331" />
+			<int key="@@case_index" value="133" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting questionnaire" />
+			<date key="time:timestamp" value="2023-03-14T12:18:47+00:00" />
+			<int key="@@index" value="332" />
+			<int key="@@case_index" value="133" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="dec5cea2-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:00:17+00:00" />
+			<int key="@@index" value="333" />
+			<int key="@@case_index" value="134" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:30:26+00:00" />
+			<int key="@@index" value="334" />
+			<int key="@@case_index" value="134" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:18:22+00:00" />
+			<int key="@@index" value="335" />
+			<int key="@@case_index" value="134" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="df01f56d-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Connect the water hose to water source" />
+			<date key="time:timestamp" value="2023-03-07T15:00:27+00:00" />
+			<int key="@@index" value="336" />
+			<int key="@@case_index" value="135" />
+		</event>
+		<event>
+			<string key="concept:name" value="Connect the water hose to water source" />
+			<date key="time:timestamp" value="2023-03-09T11:30:43+00:00" />
+			<int key="@@index" value="337" />
+			<int key="@@case_index" value="135" />
+		</event>
+		<event>
+			<string key="concept:name" value="Connect the water hose to water source" />
+			<date key="time:timestamp" value="2023-03-14T12:19:08+00:00" />
+			<int key="@@index" value="338" />
+			<int key="@@case_index" value="135" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="df4696c5-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Close the system water output valve - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:00:42+00:00" />
+			<int key="@@index" value="339" />
+			<int key="@@case_index" value="136" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the system water output valve - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:31:00+00:00" />
+			<int key="@@index" value="340" />
+			<int key="@@case_index" value="136" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the system water output valve - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:19:55+00:00" />
+			<int key="@@index" value="341" />
+			<int key="@@case_index" value="136" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="dfcd1e0b-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Close the water vessel drain valve" />
+			<date key="time:timestamp" value="2023-03-07T15:00:42+00:00" />
+			<int key="@@index" value="342" />
+			<int key="@@case_index" value="137" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the water vessel drain valve" />
+			<date key="time:timestamp" value="2023-03-09T11:31:00+00:00" />
+			<int key="@@index" value="343" />
+			<int key="@@case_index" value="137" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the water vessel drain valve" />
+			<date key="time:timestamp" value="2023-03-14T12:19:55+00:00" />
+			<int key="@@index" value="344" />
+			<int key="@@case_index" value="137" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e04a6df5-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-07T15:00:42+00:00" />
+			<int key="@@index" value="345" />
+			<int key="@@case_index" value="138" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-09T11:31:00+00:00" />
+			<int key="@@index" value="346" />
+			<int key="@@case_index" value="138" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-14T12:19:55+00:00" />
+			<int key="@@index" value="347" />
+			<int key="@@case_index" value="138" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e08b4420-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:00:39+00:00" />
+			<int key="@@index" value="348" />
+			<int key="@@case_index" value="139" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:30:57+00:00" />
+			<int key="@@index" value="349" />
+			<int key="@@case_index" value="139" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:19:38+00:00" />
+			<int key="@@index" value="350" />
+			<int key="@@case_index" value="139" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e0c03746-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Start the water inflow - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:00:48+00:00" />
+			<int key="@@index" value="351" />
+			<int key="@@case_index" value="140" />
+		</event>
+		<event>
+			<string key="concept:name" value="Start the water inflow - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:31:11+00:00" />
+			<int key="@@index" value="352" />
+			<int key="@@case_index" value="140" />
+		</event>
+		<event>
+			<string key="concept:name" value="Start the water inflow - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:20:26+00:00" />
+			<int key="@@index" value="353" />
+			<int key="@@case_index" value="140" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e128d930-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-07T15:00:48+00:00" />
+			<int key="@@index" value="354" />
+			<int key="@@case_index" value="141" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-09T11:31:11+00:00" />
+			<int key="@@index" value="355" />
+			<int key="@@case_index" value="141" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-14T12:20:26+00:00" />
+			<int key="@@index" value="356" />
+			<int key="@@case_index" value="141" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e1e76ea3-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Open the water supply valve" />
+			<date key="time:timestamp" value="2023-03-07T15:00:48+00:00" />
+			<int key="@@index" value="357" />
+			<int key="@@case_index" value="142" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the water supply valve" />
+			<date key="time:timestamp" value="2023-03-09T11:31:11+00:00" />
+			<int key="@@index" value="358" />
+			<int key="@@case_index" value="142" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the water supply valve" />
+			<date key="time:timestamp" value="2023-03-14T12:20:26+00:00" />
+			<int key="@@index" value="359" />
+			<int key="@@case_index" value="142" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e2327d19-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:00:47+00:00" />
+			<int key="@@index" value="360" />
+			<int key="@@case_index" value="143" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:31:10+00:00" />
+			<int key="@@index" value="361" />
+			<int key="@@case_index" value="143" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:20:21+00:00" />
+			<int key="@@index" value="362" />
+			<int key="@@case_index" value="143" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e27fd576-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Go to the control room computer - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:00:56+00:00" />
+			<int key="@@index" value="363" />
+			<int key="@@case_index" value="144" />
+		</event>
+		<event>
+			<string key="concept:name" value="Go to the control room computer - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:31:20+00:00" />
+			<int key="@@index" value="364" />
+			<int key="@@case_index" value="144" />
+		</event>
+		<event>
+			<string key="concept:name" value="Go to the control room computer - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:20:40+00:00" />
+			<int key="@@index" value="365" />
+			<int key="@@case_index" value="144" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e33af30f-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:00:55+00:00" />
+			<int key="@@index" value="366" />
+			<int key="@@case_index" value="145" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:31:19+00:00" />
+			<int key="@@index" value="367" />
+			<int key="@@case_index" value="145" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:20:39+00:00" />
+			<int key="@@index" value="368" />
+			<int key="@@case_index" value="145" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e3750d83-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Monitor the vessel water level - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:01:06+00:00" />
+			<int key="@@index" value="369" />
+			<int key="@@case_index" value="146" />
+		</event>
+		<event>
+			<string key="concept:name" value="Monitor the vessel water level - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:31:21+00:00" />
+			<int key="@@index" value="370" />
+			<int key="@@case_index" value="146" />
+		</event>
+		<event>
+			<string key="concept:name" value="Monitor the vessel water level - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:20:52+00:00" />
+			<int key="@@index" value="371" />
+			<int key="@@case_index" value="146" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e3c9af13-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on the water level bar on screen" />
+			<date key="time:timestamp" value="2023-03-07T15:01:06+00:00" />
+			<int key="@@index" value="372" />
+			<int key="@@case_index" value="147" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the water level bar on screen" />
+			<date key="time:timestamp" value="2023-03-09T11:31:21+00:00" />
+			<int key="@@index" value="373" />
+			<int key="@@case_index" value="147" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the water level bar on screen" />
+			<date key="time:timestamp" value="2023-03-14T12:20:52+00:00" />
+			<int key="@@index" value="374" />
+			<int key="@@case_index" value="147" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e4096cc0-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:01:06+00:00" />
+			<int key="@@index" value="375" />
+			<int key="@@case_index" value="148" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:31:21+00:00" />
+			<int key="@@index" value="376" />
+			<int key="@@case_index" value="148" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:20:52+00:00" />
+			<int key="@@index" value="377" />
+			<int key="@@case_index" value="148" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e48da00e-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Monitor the vessel water level - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:01:24+00:00" />
+			<int key="@@index" value="378" />
+			<int key="@@case_index" value="149" />
+		</event>
+		<event>
+			<string key="concept:name" value="Monitor the vessel water level - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:31:34+00:00" />
+			<int key="@@index" value="379" />
+			<int key="@@case_index" value="149" />
+		</event>
+		<event>
+			<string key="concept:name" value="Monitor the vessel water level - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:21:08+00:00" />
+			<int key="@@index" value="380" />
+			<int key="@@case_index" value="149" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e50d52d5-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Monitor the vessel water level" />
+			<date key="time:timestamp" value="2023-03-07T15:01:24+00:00" />
+			<int key="@@index" value="381" />
+			<int key="@@case_index" value="150" />
+		</event>
+		<event>
+			<string key="concept:name" value="Monitor the vessel water level" />
+			<date key="time:timestamp" value="2023-03-09T11:31:34+00:00" />
+			<int key="@@index" value="382" />
+			<int key="@@case_index" value="150" />
+		</event>
+		<event>
+			<string key="concept:name" value="Monitor the vessel water level" />
+			<date key="time:timestamp" value="2023-03-14T12:21:08+00:00" />
+			<int key="@@index" value="383" />
+			<int key="@@case_index" value="150" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e58819fd-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="ClickedOnScreenTooSoonStep" />
+			<date key="time:timestamp" value="2023-03-07T15:01:16+00:00" />
+			<int key="@@index" value="384" />
+			<int key="@@case_index" value="151" />
+		</event>
+		<event>
+			<string key="concept:name" value="ClickedOnScreenTooSoonStep" />
+			<date key="time:timestamp" value="2023-03-09T11:31:31+00:00" />
+			<int key="@@index" value="385" />
+			<int key="@@case_index" value="151" />
+		</event>
+		<event>
+			<string key="concept:name" value="ClickedOnScreenTooSoonStep" />
+			<date key="time:timestamp" value="2023-03-14T12:21:02+00:00" />
+			<int key="@@index" value="386" />
+			<int key="@@case_index" value="151" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e5d2cc67-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:01:23+00:00" />
+			<int key="@@index" value="387" />
+			<int key="@@case_index" value="152" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:31:33+00:00" />
+			<int key="@@index" value="388" />
+			<int key="@@case_index" value="152" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:21:07+00:00" />
+			<int key="@@index" value="389" />
+			<int key="@@case_index" value="152" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e66703c3-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="When water level reaches 80%, go to pump" />
+			<date key="time:timestamp" value="2023-03-07T15:01:24+00:00" />
+			<int key="@@index" value="390" />
+			<int key="@@case_index" value="153" />
+		</event>
+		<event>
+			<string key="concept:name" value="When water level reaches 80%, go to pump" />
+			<date key="time:timestamp" value="2023-03-09T11:31:34+00:00" />
+			<int key="@@index" value="391" />
+			<int key="@@case_index" value="153" />
+		</event>
+		<event>
+			<string key="concept:name" value="When water level reaches 80%, go to pump" />
+			<date key="time:timestamp" value="2023-03-14T12:21:08+00:00" />
+			<int key="@@index" value="392" />
+			<int key="@@case_index" value="153" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e6b9a935-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Stop the water inflow - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:01:38+00:00" />
+			<int key="@@index" value="393" />
+			<int key="@@case_index" value="154" />
+		</event>
+		<event>
+			<string key="concept:name" value="Stop the water inflow - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:31:46+00:00" />
+			<int key="@@index" value="394" />
+			<int key="@@case_index" value="154" />
+		</event>
+		<event>
+			<string key="concept:name" value="Stop the water inflow - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:21:25+00:00" />
+			<int key="@@index" value="395" />
+			<int key="@@case_index" value="154" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e73dffcb-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-07T15:01:38+00:00" />
+			<int key="@@index" value="396" />
+			<int key="@@case_index" value="155" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-09T11:31:46+00:00" />
+			<int key="@@index" value="397" />
+			<int key="@@case_index" value="155" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-14T12:21:25+00:00" />
+			<int key="@@index" value="398" />
+			<int key="@@case_index" value="155" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e810c58b-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Close the water supply valve" />
+			<date key="time:timestamp" value="2023-03-07T15:01:38+00:00" />
+			<int key="@@index" value="399" />
+			<int key="@@case_index" value="156" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the water supply valve" />
+			<date key="time:timestamp" value="2023-03-09T11:31:46+00:00" />
+			<int key="@@index" value="400" />
+			<int key="@@case_index" value="156" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the water supply valve" />
+			<date key="time:timestamp" value="2023-03-14T12:21:25+00:00" />
+			<int key="@@index" value="401" />
+			<int key="@@case_index" value="156" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e8eee1fa-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="PlayerTooSlowStep" />
+			<date key="time:timestamp" value="2023-03-07T15:01:35+00:00" />
+			<int key="@@index" value="402" />
+			<int key="@@case_index" value="157" />
+		</event>
+		<event>
+			<string key="concept:name" value="PlayerTooSlowStep" />
+			<date key="time:timestamp" value="2023-03-09T11:31:42+00:00" />
+			<int key="@@index" value="403" />
+			<int key="@@case_index" value="157" />
+		</event>
+		<event>
+			<string key="concept:name" value="PlayerTooSlowStep" />
+			<date key="time:timestamp" value="2023-03-14T12:21:22+00:00" />
+			<int key="@@index" value="404" />
+			<int key="@@case_index" value="157" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e9443a1b-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:01:35+00:00" />
+			<int key="@@index" value="405" />
+			<int key="@@case_index" value="158" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:31:42+00:00" />
+			<int key="@@index" value="406" />
+			<int key="@@case_index" value="158" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:21:23+00:00" />
+			<int key="@@index" value="407" />
+			<int key="@@case_index" value="158" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e999349a-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Close the water supply valve" />
+			<date key="time:timestamp" value="2023-03-07T15:01:38+00:00" />
+			<int key="@@index" value="408" />
+			<int key="@@case_index" value="159" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the water supply valve" />
+			<date key="time:timestamp" value="2023-03-09T11:31:46+00:00" />
+			<int key="@@index" value="409" />
+			<int key="@@case_index" value="159" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close the water supply valve" />
+			<date key="time:timestamp" value="2023-03-14T12:21:25+00:00" />
+			<int key="@@index" value="410" />
+			<int key="@@case_index" value="159" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="e9daa38e-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Put away the hose, so that people don't trip on it - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:01:52+00:00" />
+			<int key="@@index" value="411" />
+			<int key="@@case_index" value="160" />
+		</event>
+		<event>
+			<string key="concept:name" value="Put away the hose, so that people don't trip on it - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:31:56+00:00" />
+			<int key="@@index" value="412" />
+			<int key="@@case_index" value="160" />
+		</event>
+		<event>
+			<string key="concept:name" value="Put away the hose, so that people don't trip on it - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:21:56+00:00" />
+			<int key="@@index" value="413" />
+			<int key="@@case_index" value="160" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="eae972f1-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Put away the hose, so that people don't trip on it" />
+			<date key="time:timestamp" value="2023-03-07T15:01:52+00:00" />
+			<int key="@@index" value="414" />
+			<int key="@@case_index" value="161" />
+		</event>
+		<event>
+			<string key="concept:name" value="Put away the hose, so that people don't trip on it" />
+			<date key="time:timestamp" value="2023-03-09T11:31:56+00:00" />
+			<int key="@@index" value="415" />
+			<int key="@@case_index" value="161" />
+		</event>
+		<event>
+			<string key="concept:name" value="Put away the hose, so that people don't trip on it" />
+			<date key="time:timestamp" value="2023-03-14T12:21:56+00:00" />
+			<int key="@@index" value="416" />
+			<int key="@@case_index" value="161" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="eb4c4224-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:01:49+00:00" />
+			<int key="@@index" value="417" />
+			<int key="@@case_index" value="162" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:31:53+00:00" />
+			<int key="@@index" value="418" />
+			<int key="@@case_index" value="162" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:21:49+00:00" />
+			<int key="@@index" value="419" />
+			<int key="@@case_index" value="162" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="ebc3d80f-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Choose the pump  - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:02:04+00:00" />
+			<int key="@@index" value="420" />
+			<int key="@@case_index" value="163" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose the pump  - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:32:13+00:00" />
+			<int key="@@index" value="421" />
+			<int key="@@case_index" value="163" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose the pump  - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:22:34+00:00" />
+			<int key="@@index" value="422" />
+			<int key="@@case_index" value="163" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="ec691efd-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Choose a pump (pump 2)" />
+			<date key="time:timestamp" value="2023-03-07T15:02:04+00:00" />
+			<int key="@@index" value="423" />
+			<int key="@@case_index" value="164" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose a pump (pump 2)" />
+			<date key="time:timestamp" value="2023-03-09T11:32:13+00:00" />
+			<int key="@@index" value="424" />
+			<int key="@@case_index" value="164" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose a pump (pump 2)" />
+			<date key="time:timestamp" value="2023-03-14T12:22:34+00:00" />
+			<int key="@@index" value="425" />
+			<int key="@@case_index" value="164" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="ed19fa2f-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on pump 1 (wrong pump)" />
+			<date key="time:timestamp" value="2023-03-07T15:02:04+00:00" />
+			<int key="@@index" value="426" />
+			<int key="@@case_index" value="165" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on pump 1 (wrong pump)" />
+			<date key="time:timestamp" value="2023-03-09T11:32:13+00:00" />
+			<int key="@@index" value="427" />
+			<int key="@@case_index" value="165" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on pump 1 (wrong pump)" />
+			<date key="time:timestamp" value="2023-03-14T12:22:34+00:00" />
+			<int key="@@index" value="428" />
+			<int key="@@case_index" value="165" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f07f0e45-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:02:01+00:00" />
+			<int key="@@index" value="429" />
+			<int key="@@case_index" value="166" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:32:12+00:00" />
+			<int key="@@index" value="430" />
+			<int key="@@case_index" value="166" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:22:19+00:00" />
+			<int key="@@index" value="431" />
+			<int key="@@case_index" value="166" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f10dfde0-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Open the pump 2 inflow valve - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:02:12+00:00" />
+			<int key="@@index" value="432" />
+			<int key="@@case_index" value="167" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the pump 2 inflow valve - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:32:18+00:00" />
+			<int key="@@index" value="433" />
+			<int key="@@case_index" value="167" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the pump 2 inflow valve - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:22:48+00:00" />
+			<int key="@@index" value="434" />
+			<int key="@@case_index" value="167" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f194d4f9-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-07T15:02:12+00:00" />
+			<int key="@@index" value="435" />
+			<int key="@@case_index" value="168" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-09T11:32:18+00:00" />
+			<int key="@@index" value="436" />
+			<int key="@@case_index" value="168" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-14T12:22:48+00:00" />
+			<int key="@@index" value="437" />
+			<int key="@@case_index" value="168" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f21c7189-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Open pump 2 inflow valve" />
+			<date key="time:timestamp" value="2023-03-07T15:02:12+00:00" />
+			<int key="@@index" value="438" />
+			<int key="@@case_index" value="169" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open pump 2 inflow valve" />
+			<date key="time:timestamp" value="2023-03-09T11:32:18+00:00" />
+			<int key="@@index" value="439" />
+			<int key="@@case_index" value="169" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open pump 2 inflow valve" />
+			<date key="time:timestamp" value="2023-03-14T12:22:48+00:00" />
+			<int key="@@index" value="440" />
+			<int key="@@case_index" value="169" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f26aab62-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:02:10+00:00" />
+			<int key="@@index" value="441" />
+			<int key="@@case_index" value="170" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:32:16+00:00" />
+			<int key="@@index" value="442" />
+			<int key="@@case_index" value="170" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:22:46+00:00" />
+			<int key="@@index" value="443" />
+			<int key="@@case_index" value="170" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f2fb1b2c-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Open the pump 2 outflow valve half way - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:02:35+00:00" />
+			<int key="@@index" value="444" />
+			<int key="@@case_index" value="171" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the pump 2 outflow valve half way - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:32:26+00:00" />
+			<int key="@@index" value="445" />
+			<int key="@@case_index" value="171" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the pump 2 outflow valve half way - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:23:09+00:00" />
+			<int key="@@index" value="446" />
+			<int key="@@case_index" value="171" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f38bdfd1-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-07T15:02:35+00:00" />
+			<int key="@@index" value="447" />
+			<int key="@@case_index" value="172" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-09T11:32:26+00:00" />
+			<int key="@@index" value="448" />
+			<int key="@@case_index" value="172" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any wrong part of the system" />
+			<date key="time:timestamp" value="2023-03-14T12:23:09+00:00" />
+			<int key="@@index" value="449" />
+			<int key="@@case_index" value="172" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f40b7cf5-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Open the pump 2 outflow valve half-way" />
+			<date key="time:timestamp" value="2023-03-07T15:02:35+00:00" />
+			<int key="@@index" value="450" />
+			<int key="@@case_index" value="173" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the pump 2 outflow valve half-way" />
+			<date key="time:timestamp" value="2023-03-09T11:32:26+00:00" />
+			<int key="@@index" value="451" />
+			<int key="@@case_index" value="173" />
+		</event>
+		<event>
+			<string key="concept:name" value="Open the pump 2 outflow valve half-way" />
+			<date key="time:timestamp" value="2023-03-14T12:23:09+00:00" />
+			<int key="@@index" value="452" />
+			<int key="@@case_index" value="173" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f471c0c2-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:02:29+00:00" />
+			<int key="@@index" value="453" />
+			<int key="@@case_index" value="174" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:32:19+00:00" />
+			<int key="@@index" value="454" />
+			<int key="@@case_index" value="174" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:23:02+00:00" />
+			<int key="@@index" value="455" />
+			<int key="@@case_index" value="174" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f5889acd-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on the computer to continue - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:02:48+00:00" />
+			<int key="@@index" value="456" />
+			<int key="@@case_index" value="175" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the computer to continue - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:32:39+00:00" />
+			<int key="@@index" value="457" />
+			<int key="@@case_index" value="175" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the computer to continue - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:23:23+00:00" />
+			<int key="@@index" value="458" />
+			<int key="@@case_index" value="175" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f5fa9717-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on the computer and zoom in" />
+			<date key="time:timestamp" value="2023-03-07T15:02:48+00:00" />
+			<int key="@@index" value="459" />
+			<int key="@@case_index" value="176" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the computer and zoom in" />
+			<date key="time:timestamp" value="2023-03-09T11:32:39+00:00" />
+			<int key="@@index" value="460" />
+			<int key="@@case_index" value="176" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the computer and zoom in" />
+			<date key="time:timestamp" value="2023-03-14T12:23:23+00:00" />
+			<int key="@@index" value="461" />
+			<int key="@@case_index" value="176" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f6501a7a-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:02:48+00:00" />
+			<int key="@@index" value="462" />
+			<int key="@@case_index" value="177" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:32:39+00:00" />
+			<int key="@@index" value="463" />
+			<int key="@@case_index" value="177" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:23:23+00:00" />
+			<int key="@@index" value="464" />
+			<int key="@@case_index" value="177" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f6edbaf3-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Select pump 2 on the screen - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:02:57+00:00" />
+			<int key="@@index" value="465" />
+			<int key="@@case_index" value="178" />
+		</event>
+		<event>
+			<string key="concept:name" value="Select pump 2 on the screen - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:32:42+00:00" />
+			<int key="@@index" value="466" />
+			<int key="@@case_index" value="178" />
+		</event>
+		<event>
+			<string key="concept:name" value="Select pump 2 on the screen - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:23:36+00:00" />
+			<int key="@@index" value="467" />
+			<int key="@@case_index" value="178" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f78f9823-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Select pump 2 on the screen" />
+			<date key="time:timestamp" value="2023-03-07T15:02:57+00:00" />
+			<int key="@@index" value="468" />
+			<int key="@@case_index" value="179" />
+		</event>
+		<event>
+			<string key="concept:name" value="Select pump 2 on the screen" />
+			<date key="time:timestamp" value="2023-03-09T11:32:42+00:00" />
+			<int key="@@index" value="469" />
+			<int key="@@case_index" value="179" />
+		</event>
+		<event>
+			<string key="concept:name" value="Select pump 2 on the screen" />
+			<date key="time:timestamp" value="2023-03-14T12:23:36+00:00" />
+			<int key="@@index" value="470" />
+			<int key="@@case_index" value="179" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f7f05040-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:02:57+00:00" />
+			<int key="@@index" value="471" />
+			<int key="@@case_index" value="180" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:32:42+00:00" />
+			<int key="@@index" value="472" />
+			<int key="@@case_index" value="180" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:23:36+00:00" />
+			<int key="@@index" value="473" />
+			<int key="@@case_index" value="180" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f84acd01-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Start the pump on the screen - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:03:22+00:00" />
+			<int key="@@index" value="474" />
+			<int key="@@case_index" value="181" />
+		</event>
+		<event>
+			<string key="concept:name" value="Start the pump on the screen - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:32:57+00:00" />
+			<int key="@@index" value="475" />
+			<int key="@@case_index" value="181" />
+		</event>
+		<event>
+			<string key="concept:name" value="Start the pump on the screen - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:24:04+00:00" />
+			<int key="@@index" value="476" />
+			<int key="@@case_index" value="181" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f91b88f3-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Start pump 2 on the screen" />
+			<date key="time:timestamp" value="2023-03-07T15:03:22+00:00" />
+			<int key="@@index" value="477" />
+			<int key="@@case_index" value="182" />
+		</event>
+		<event>
+			<string key="concept:name" value="Start pump 2 on the screen" />
+			<date key="time:timestamp" value="2023-03-09T11:32:57+00:00" />
+			<int key="@@index" value="478" />
+			<int key="@@case_index" value="182" />
+		</event>
+		<event>
+			<string key="concept:name" value="Start pump 2 on the screen" />
+			<date key="time:timestamp" value="2023-03-14T12:24:04+00:00" />
+			<int key="@@index" value="479" />
+			<int key="@@case_index" value="182" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="f993664a-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:03:18+00:00" />
+			<int key="@@index" value="480" />
+			<int key="@@case_index" value="183" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:32:57+00:00" />
+			<int key="@@index" value="481" />
+			<int key="@@case_index" value="183" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:23:57+00:00" />
+			<int key="@@index" value="482" />
+			<int key="@@case_index" value="183" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fa451582-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Select the agitator on the screen - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:03:29+00:00" />
+			<int key="@@index" value="483" />
+			<int key="@@case_index" value="184" />
+		</event>
+		<event>
+			<string key="concept:name" value="Select the agitator on the screen - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:33:00+00:00" />
+			<int key="@@index" value="484" />
+			<int key="@@case_index" value="184" />
+		</event>
+		<event>
+			<string key="concept:name" value="Select the agitator on the screen - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:26:45+00:00" />
+			<int key="@@index" value="485" />
+			<int key="@@case_index" value="184" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fad78df2-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Select on the agitator on the screen" />
+			<date key="time:timestamp" value="2023-03-07T15:03:29+00:00" />
+			<int key="@@index" value="486" />
+			<int key="@@case_index" value="185" />
+		</event>
+		<event>
+			<string key="concept:name" value="Select on the agitator on the screen" />
+			<date key="time:timestamp" value="2023-03-09T11:33:00+00:00" />
+			<int key="@@index" value="487" />
+			<int key="@@case_index" value="185" />
+		</event>
+		<event>
+			<string key="concept:name" value="Select on the agitator on the screen" />
+			<date key="time:timestamp" value="2023-03-14T12:26:45+00:00" />
+			<int key="@@index" value="488" />
+			<int key="@@case_index" value="185" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fb37e05e-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:03:29+00:00" />
+			<int key="@@index" value="489" />
+			<int key="@@case_index" value="186" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:33:00+00:00" />
+			<int key="@@index" value="490" />
+			<int key="@@case_index" value="186" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:24:31+00:00" />
+			<int key="@@index" value="491" />
+			<int key="@@case_index" value="186" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fba98174-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Start the agitator on the screen - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:03:38+00:00" />
+			<int key="@@index" value="492" />
+			<int key="@@case_index" value="187" />
+		</event>
+		<event>
+			<string key="concept:name" value="Start the agitator on the screen - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:33:09+00:00" />
+			<int key="@@index" value="493" />
+			<int key="@@case_index" value="187" />
+		</event>
+		<event>
+			<string key="concept:name" value="Start the agitator on the screen - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:27:00+00:00" />
+			<int key="@@index" value="494" />
+			<int key="@@case_index" value="187" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fc3d6ebf-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Start agitator on the screen" />
+			<date key="time:timestamp" value="2023-03-07T15:03:38+00:00" />
+			<int key="@@index" value="495" />
+			<int key="@@case_index" value="188" />
+		</event>
+		<event>
+			<string key="concept:name" value="Start agitator on the screen" />
+			<date key="time:timestamp" value="2023-03-09T11:33:09+00:00" />
+			<int key="@@index" value="496" />
+			<int key="@@case_index" value="188" />
+		</event>
+		<event>
+			<string key="concept:name" value="Start agitator on the screen" />
+			<date key="time:timestamp" value="2023-03-14T12:27:00+00:00" />
+			<int key="@@index" value="497" />
+			<int key="@@case_index" value="188" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fc90187a-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:03:38+00:00" />
+			<int key="@@index" value="498" />
+			<int key="@@case_index" value="189" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:33:09+00:00" />
+			<int key="@@index" value="499" />
+			<int key="@@case_index" value="189" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:27:00+00:00" />
+			<int key="@@index" value="500" />
+			<int key="@@case_index" value="189" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fcf90a99-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on the computer to continue - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:03:44+00:00" />
+			<int key="@@index" value="501" />
+			<int key="@@case_index" value="190" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the computer to continue - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:33:11+00:00" />
+			<int key="@@index" value="502" />
+			<int key="@@case_index" value="190" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the computer to continue - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:27:05+00:00" />
+			<int key="@@index" value="503" />
+			<int key="@@case_index" value="190" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fd664d1c-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on the computer  and zoom out" />
+			<date key="time:timestamp" value="2023-03-07T15:03:44+00:00" />
+			<int key="@@index" value="504" />
+			<int key="@@case_index" value="191" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the computer  and zoom out" />
+			<date key="time:timestamp" value="2023-03-09T11:33:11+00:00" />
+			<int key="@@index" value="505" />
+			<int key="@@case_index" value="191" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on the computer  and zoom out" />
+			<date key="time:timestamp" value="2023-03-14T12:27:05+00:00" />
+			<int key="@@index" value="506" />
+			<int key="@@case_index" value="191" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fe0311c0-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-07T15:03:44+00:00" />
+			<int key="@@index" value="507" />
+			<int key="@@case_index" value="192" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-09T11:33:11+00:00" />
+			<int key="@@index" value="508" />
+			<int key="@@case_index" value="192" />
+		</event>
+		<event>
+			<string key="concept:name" value="Hinting" />
+			<date key="time:timestamp" value="2023-03-14T12:27:05+00:00" />
+			<int key="@@index" value="509" />
+			<int key="@@case_index" value="192" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fe7ae1b9-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Find the heat exchangers - instructions" />
+			<date key="time:timestamp" value="2023-03-07T15:04:18+00:00" />
+			<int key="@@index" value="510" />
+			<int key="@@case_index" value="193" />
+		</event>
+		<event>
+			<string key="concept:name" value="Find the heat exchangers - instructions" />
+			<date key="time:timestamp" value="2023-03-09T11:33:55+00:00" />
+			<int key="@@index" value="511" />
+			<int key="@@case_index" value="193" />
+		</event>
+		<event>
+			<string key="concept:name" value="Find the heat exchangers - instructions" />
+			<date key="time:timestamp" value="2023-03-14T12:27:54+00:00" />
+			<int key="@@index" value="512" />
+			<int key="@@case_index" value="193" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="fedf9b0c-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Interruptible intructions" />
+			<date key="time:timestamp" value="2023-03-07T15:03:56+00:00" />
+			<int key="@@index" value="513" />
+			<int key="@@case_index" value="194" />
+		</event>
+		<event>
+			<string key="concept:name" value="Interruptible intructions" />
+			<date key="time:timestamp" value="2023-03-09T11:33:23+00:00" />
+			<int key="@@index" value="514" />
+			<int key="@@case_index" value="194" />
+		</event>
+		<event>
+			<string key="concept:name" value="Interruptible intructions" />
+			<date key="time:timestamp" value="2023-03-14T12:27:17+00:00" />
+			<int key="@@index" value="515" />
+			<int key="@@case_index" value="194" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="ff4d9ead-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on any of the wrong parts" />
+			<date key="time:timestamp" value="2023-03-07T15:03:59+00:00" />
+			<int key="@@index" value="516" />
+			<int key="@@case_index" value="195" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any of the wrong parts" />
+			<date key="time:timestamp" value="2023-03-09T11:33:16+00:00" />
+			<int key="@@index" value="517" />
+			<int key="@@case_index" value="195" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on any of the wrong parts" />
+			<date key="time:timestamp" value="2023-03-14T12:27:54+00:00" />
+			<int key="@@index" value="518" />
+			<int key="@@case_index" value="195" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="ffc2a286-881f-11ec-9427-0a5e0cfdd720" />
+		<event>
+			<string key="concept:name" value="Click on thermal bath heat exchanger and stop highlight" />
+			<date key="time:timestamp" value="2023-03-07T15:04:05+00:00" />
+			<int key="@@index" value="519" />
+			<int key="@@case_index" value="196" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on thermal bath heat exchanger and stop highlight" />
+			<date key="time:timestamp" value="2023-03-09T11:33:43+00:00" />
+			<int key="@@index" value="520" />
+			<int key="@@case_index" value="196" />
+		</event>
+		<event>
+			<string key="concept:name" value="Click on thermal bath heat exchanger and stop highlight" />
+			<date key="time:timestamp" value="2023-03-14T12:27:41+00:00" />
+			<int key="@@index" value="521" />
+			<int key="@@case_index" value="196" />
+		</event>
+	</trace>
+</log>
