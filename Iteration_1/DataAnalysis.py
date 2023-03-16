@@ -60,26 +60,49 @@ dataAS = newdata['ActionScores']
 #%%
 # Loading new DF for Daan runs with search
 daandf = newdata
-daandf = daandf[daandf['GameSessionId'].str.contains('Run_Daan')]
+daandf1 = daandf[daandf['GameSessionId'].str.contains('Run_Daan1')]
+daandf2 = daandf[daandf['GameSessionId'].str.contains('Run_Daan2')]
 
 # Apply the function to the time column in your DataFrame
-daandf['SecondsFromStart'] = daandf['StopTime'].apply(to_epoch)
-daandf['SecondsFromStart'] = daandf['SecondsFromStart'] - daandf['SecondsFromStart'].iloc[0]
+daandf1['SecondsFromStart'] = daandf1['StopTime'].apply(to_epoch)
+daandf1['SecondsFromStart'] = daandf1['SecondsFromStart'] - daandf1['SecondsFromStart'].iloc[0]
 
 # Filter by columns that have scoring
-daandf = daandf.query("`StartScore` >= 1")
+daandf1 = daandf1.query("`StartScore` >= 1")
 
 # Plotting
-x=daandf["SecondsFromStart"]
-y1=daandf["StartScore"].cumsum()
-y2=daandf["Penalty"].cumsum()
+# x=daandf["SecondsFromStart"]
+# y1=daandf["StartScore"].cumsum()
+# y2=daandf["Penalty"].cumsum()
+# plt.style.use('_mpl-gallery')
+# fig, ax = plt.subplots()
+# ax.stackplot(x, [y1, y2])
+# fig.set_size_inches(20, 10)
+# plt.gca().invert_yaxis()
+# plt.xlabel("Time (s)")
+# plt.ylabel("Penalty/Total")
+# plt.show()
+
+# Define x, y1, and y2
+x = daandf1["SecondsFromStart"]
+y1 = daandf1["StartScore"].cumsum()
+y2 = daandf1["Penalty"].cumsum()
+
+# Create a stacked area plot with labels and legend
 plt.style.use('_mpl-gallery')
 fig, ax = plt.subplots()
-ax.stackplot(x, [y1, y2])
-ax.legend([y1, y2], ["Maximum Penalty", "Daan's Penalty"])
+ax.stackplot(x, y1, y2, labels=['Daans Penalty Run 1', 'Total Penalty Run 1'])
 fig.set_size_inches(20, 10)
+
+# Invert y-axis and set axis labels
 plt.gca().invert_yaxis()
 plt.xlabel("Time (s)")
 plt.ylabel("Penalty/Total")
+
+# Add legend
+plt.legend(loc='upper left')
+
+# Show the plot
 plt.show()
+
 # %%
