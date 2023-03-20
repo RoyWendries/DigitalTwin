@@ -84,14 +84,14 @@ daandf1 = daandf1.query("`StartScore` >= 1")
 # plt.show()
 
 # Define x, y1, and y2
-x = daandf1["SecondsFromStart"]
-y1 = daandf1["StartScore"].cumsum()
-y2 = daandf1["Penalty"].cumsum()
+x_1 = daandf1["SecondsFromStart"]
+y1_1 = daandf1["StartScore"].cumsum()
+y2_1 = daandf1["Penalty"].cumsum()
 
 # Create a stacked area plot with labels and legend
-plt.style.use('_mpl-gallery')
+# plt.style.use('_mpl-gallery')
 fig, ax = plt.subplots()
-ax.stackplot(x, y1, y2, labels=['Daans Penalty Run 1', 'Total Penalty Run 1'])
+ax.stackplot(x_1, y1_1, y2_1, labels=['Daans Penalty Run 1', 'Total Penalty Run 1'])
 fig.set_size_inches(20, 10)
 
 # Invert y-axis and set axis labels
@@ -105,4 +105,18 @@ plt.legend(loc='upper left')
 # Show the plot
 plt.show()
 
+# %%
+# Create a stacked area plot with labels and legend
+# plt.style.use('_mpl-gallery')
+fig, ax = plt.subplots()
+ydelta_1 = y1_1 - y2_1
+ax.plot(x_1, ydelta_1)
+fig.set_size_inches(20, 10)
+
+# Invert y-axis and set axis labels
+plt.xlabel("Time (s)")
+plt.ylabel("Penalty not given (Higher is better)")
+
+# Show the plot
+plt.show()
 # %%
