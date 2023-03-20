@@ -44,14 +44,23 @@ def timeFormatting(dateTime):
 
 
 # %%
+# minimal scoreTracking
 def minScoreTracking(data):
-    totalScore = 0
-    i = 0
-    for element in data['StartScore']:
-        row = data.iloc[i]
+    sumTotalScore = []
+    sumTotalPenalty = []
+    groupedData = data.groupby(['GameSessionId'])
+    for file in fileList:
+        totalScore = 0
+        totalPenalty = 0
+        df = groupedData.get_group(file)
+        for element in df["StartScore"]:
+            totalScore += element
+        sumTotalScore.append(totalScore)
+        for element in df['Penalty']:
+            totalPenalty += element
+        sumTotalPenalty.append(totalPenalty)
 
-        i += 1
-    return totalScore
+    return sumTotalScore, sumTotalPenalty
 
 
 # %%
@@ -79,4 +88,4 @@ while count > 0:
     olddata = data
 del olddata
 
-print(minScoreTracking(data))
+minScoreTracking(data)
