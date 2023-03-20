@@ -2,13 +2,13 @@
 import os
 import json
 import pandas as pd
-from datetime import time, datetime
+from datetime import datetime
 
 
 # %%
 # Load Datasets & add session name
 def LoadData(count):
-    name = FileList[count]
+    name = fileList[count]
     saveLocation = dir + "\Data\\" + name
     with open(saveLocation) as f:
         data = json.load(f)
@@ -25,22 +25,37 @@ def LoadData(count):
 # Add column for the time between actions
 def ActionTime(data):
     timeDelta = []
-    startTime = data["StartTime"][0]
-    startTime = startTime[11::]
-    oldtime = datetime.strptime(startTime, '%H:%M:%S')
+    oldtime = timeFormatting(data["StartTime"][0])
     stopTime = data["StopTime"]
     for time in stopTime:
-        time = time[11::]
-        time = datetime.strptime(time, '%H:%M:%S')
-        delta = time - oldtime
+        time = timeFormatting(time)
+        timeDelta.append(str(time-oldtime))
         oldtime = time
-        timeDelta.append(str(delta))
     data["TimeDelta"] = timeDelta
     return data
 
 
 # %%
-# Interactive windows have diff dir's
+# Timeformatter for the timedelta column
+def timeFormatting(dateTime):
+    dateTime = dateTime[11::]
+    dateTime = datetime.strptime(dateTime, '%H:%M:%S')
+    return dateTime
+
+
+# %%
+def minScoreTracking(data):
+    totalScore = 0
+    i = 0
+    for element in data['StartScore']:
+        row = data.iloc[i]
+
+        i += 1
+    return totalScore
+
+
+# %%
+# Dir setup for interactive window usage
 pathExtension = "Iteration_1"
 dir = os.getcwd()
 pathCheck = dir.endswith(pathExtension)
@@ -49,20 +64,19 @@ if not pathCheck:
     dir = os.getcwd()
 
 # %%
-# Grab datasets and initiate function to load data
+# Grab all datasets in 'Data" folder and initiate function to load data
 pathToJson = "Data/"
-FileList = [pos_json for pos_json in os.listdir(
+fileList = [pos_json for pos_json in os.listdir(
     pathToJson) if pos_json.endswith('.json')]
 
-count = len(FileList)
+count = len(fileList)
 while count > 0:
     count = count - 1
-    newdata = LoadData(count)
-    if count != len(FileList) - 1:
-        newdata = pd.concat([olddata, newdata])
-        newdata = newdata.drop(columns=['Id'])
-    olddata = newdata
+    data = LoadData(count)
+    if count != len(fileList) - 1:
+        data = pd.concat([olddata, data])
+        data = data.drop(columns=['Id'])
+    olddata = data
 del olddata
 
-# ActionScore
-dataAS = newdata['ActionScores']
+print(minScoreTracking(data))
