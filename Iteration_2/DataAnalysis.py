@@ -1,6 +1,7 @@
 # %%
 import os
 import json
+import time
 import pandas as pd
 from datetime import datetime
 
@@ -65,7 +66,7 @@ def minScoreTracking(data):
 
 # %%
 # Dir setup for interactive window usage
-pathExtension = "Iteration_1"
+pathExtension = "Iteration_2"
 dir = os.getcwd()
 pathCheck = dir.endswith(pathExtension)
 if not pathCheck:
@@ -89,3 +90,6 @@ while count > 0:
 del olddata
 
 minScoreTracking(data)
+
+# Commented code for parquet file generation
+data.to_parquet(time.strftime("%Y%m%d-%H%M%S") + '.parquet')
