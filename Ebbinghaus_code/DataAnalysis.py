@@ -28,7 +28,7 @@ def to_epoch(time_str):
 
 # %%
 # Interactive windows have diff dir's
-pathExtension = "Iteration_1"
+pathExtension = "Ebbinghaus_code"
 dir = os.getcwd()
 pathCheck = dir.endswith(pathExtension)
 if not pathCheck:
@@ -66,9 +66,14 @@ daandf2 = daandf[daandf['GameSessionId'].str.contains('Run_Daan2')]
 # Apply the function to the time column in your DataFrame
 daandf1['SecondsFromStart'] = daandf1['StopTime'].apply(to_epoch)
 daandf1['SecondsFromStart'] = daandf1['SecondsFromStart'] - daandf1['SecondsFromStart'].iloc[0]
+daandf2['SecondsFromStart'] = daandf2['StopTime'].apply(to_epoch)
+daandf2['SecondsFromStart'] = daandf2['SecondsFromStart'] - daandf2['SecondsFromStart'].iloc[0] + daandf1['SecondsFromStart'].max()
+
+
 
 # Filter by columns that have scoring
 daandf1 = daandf1.query("`StartScore` >= 1")
+daandf2 = daandf2.query("`StartScore` >= 1")
 
 # Plotting
 # x=daandf["SecondsFromStart"]
@@ -87,6 +92,10 @@ daandf1 = daandf1.query("`StartScore` >= 1")
 x_1 = daandf1["SecondsFromStart"]
 y1_1 = daandf1["StartScore"].cumsum()
 y2_1 = daandf1["Penalty"].cumsum()
+
+x_2 = daandf2["SecondsFromStart"]
+y1_2 = daandf2["StartScore"].cumsum()
+y2_2 = daandf["Penalty"].cumsum()
 
 # Create a stacked area plot with labels and legend
 # plt.style.use('_mpl-gallery')
@@ -107,16 +116,21 @@ plt.show()
 
 # %%
 # Create a stacked area plot with labels and legend
-# plt.style.use('_mpl-gallery')
 fig, ax = plt.subplots()
 ydelta_1 = y1_1 - y2_1
-ax.plot(x_1, ydelta_1)
+ydelta_2 = y1_2 - y2_2
+ax.plot(x_1, ydelta_1, label='Plot 1')
+ax.plot(x_2, ydelta_2, label='Plot 2')
 fig.set_size_inches(20, 10)
 
 # Invert y-axis and set axis labels
 plt.xlabel("Time (s)")
 plt.ylabel("Penalty not given (Higher is better)")
 
+# Add legend
+plt.legend()
+
 # Show the plot
 plt.show()
+
 # %%
