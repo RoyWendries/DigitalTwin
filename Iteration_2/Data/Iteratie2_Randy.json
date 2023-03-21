@@ -1,0 +1,3479 @@
+{
+	"StopTime": "2023-03-20T18:38:50",
+	"Session": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+	"LessonId": "5d81064a-c717-11ed-b7c3-0a5e0cfdd720",
+	"LessonName": "Start/end the liquid process 2",
+	"Version": "1.5.0",
+	"UserId": "3d708cc5-b761-11ed-b7c3-0a5e0cfdd720",
+	"PlatformId": "d3b7b05f-e4c4-4fb6-9f30-b194e2bc0525",
+	"Score": 2310,
+	"ScorePercentage": 93,
+	"PassingPercentage": 93,
+	"Retries": 0,
+	"Finished": true,
+	"StartTime": "2023-03-20T18:31:17",
+	"ScoredSteps": [
+		{
+			"Id": "0728442f-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "5e7e1282-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "Setup the level",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:31:19",
+			"Sequence": 0,
+			"ActionScores": []
+		},
+		{
+			"Id": "072a1e17-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "61dcaa36-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS1_Introduction",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:31:27",
+			"Sequence": 11,
+			"ActionScores": []
+		},
+		{
+			"Id": "072aafd7-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6271fd13-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL2_Continued optional interruptible instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:31:50",
+			"Sequence": 13,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "627357d3-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "PenaltyAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072b1b23-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6320bf35-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL2_Hinting",
+			"Failed": true,
+			"StartScore": 30,
+			"Penalty": 30,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:09",
+			"Sequence": 15,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "6321704e-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "PenaltyAction",
+					"Failed": true,
+					"Penalty": 30.0,
+					"Message": "Action failed!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL2_Hinting",
+					"Failed": true,
+					"Penalty": 0.0,
+					"Message": "FAILED",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072aef7b-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "63971b7e-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL2_Push the reset button (wrong)",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:21",
+			"Sequence": 16,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL2_Push the reset button (wrong)",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072a86b7-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "62d1cb27-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL2_Turn the switch on the power panel",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:21",
+			"Sequence": 14,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "62d1d078-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072a60b6-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "62324e56-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS2_Turn the switch on the power panel - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:21",
+			"Sequence": 12,
+			"ActionScores": []
+		},
+		{
+			"Id": "072b7de5-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "648b74f7-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL3_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:31",
+			"Sequence": 19,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL3_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072bae18-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "644a5fb5-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL3_Push the reset button on the power panel",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:31",
+			"Sequence": 18,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "644a648c-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072b4478-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "63dcf8fa-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS3_Push the reset button - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:31",
+			"Sequence": 17,
+			"ActionScores": []
+		},
+		{
+			"Id": "072bd4a8-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "64e6a1a0-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS4_Turn on the power of the pump system",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:34",
+			"Sequence": 20,
+			"ActionScores": []
+		},
+		{
+			"Id": "072d4bb4-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "694925da-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL5_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:48",
+			"Sequence": 28,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL5_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072c6dc3-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6593a53b-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL5_Continued optional interruptible instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:48",
+			"Sequence": 23,
+			"ActionScores": []
+		},
+		{
+			"Id": "072ceabe-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "68fd3206-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL5_Hinting questionnaire",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:53",
+			"Sequence": 27,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL5_Hinting questionnaire",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072c9a19-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "66f9ad78-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL5_Click on the water hose",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:55",
+			"Sequence": 24,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "66f9f1a0-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": "66fb13ee-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "QuestionnaireAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": "66fb13ee-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "QuestionnaireAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072cbddb-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "68964e4f-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL5_Incorrect questionnaire answer",
+			"Failed": false,
+			"StartScore": 50,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:55",
+			"Sequence": 26,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL5_Incorrect questionnaire answer",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072d16fc-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "66193197-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL5_Click on any wrong part of the system",
+			"Failed": true,
+			"StartScore": 30,
+			"Penalty": 30,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:55",
+			"Sequence": 22,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "661a5a21-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "PenaltyAction",
+					"Failed": true,
+					"Penalty": 30.0,
+					"Message": "Action failed!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL5_Click on any wrong part of the system",
+					"Failed": true,
+					"Penalty": 0.0,
+					"Message": "FAILED",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072c31c1-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "67ba5d9f-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL5_Correct questionnaire answer",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:55",
+			"Sequence": 25,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL5_Correct questionnaire answer",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072bfe75-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "653fd6dc-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS5_Connect the water hose - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:55",
+			"Sequence": 21,
+			"ActionScores": []
+		},
+		{
+			"Id": "072d7e5f-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "698daf4e-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS6_Connect the water hose to water source",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:55",
+			"Sequence": 29,
+			"ActionScores": []
+		},
+		{
+			"Id": "072de0b4-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6b8db771-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL7_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:32:58",
+			"Sequence": 33,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL7_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072e0ddb-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6b2daa2f-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL7_Click on any wrong part of the system",
+			"Failed": true,
+			"StartScore": 30,
+			"Penalty": 30,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:01",
+			"Sequence": 32,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "6b2ea67e-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "PenaltyAction",
+					"Failed": true,
+					"Penalty": 30.0,
+					"Message": "Action failed!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL7_Click on any wrong part of the system",
+					"Failed": true,
+					"Penalty": 0.0,
+					"Message": "FAILED",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072e47e3-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6a995616-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL7_Close the water vessel drain valve",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:01",
+			"Sequence": 31,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "6a998481-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072dcccc-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "69f2c5d8-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS7_Close the system water output valve - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:01",
+			"Sequence": 30,
+			"ActionScores": []
+		},
+		{
+			"Id": "072e9968-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6e426118-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL8_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:04",
+			"Sequence": 37,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL8_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072ee9b7-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6c5a42e6-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL8_Click on any wrong part of the system",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:05",
+			"Sequence": 35,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL8_Click on any wrong part of the system",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072ebeac-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6dbd54c0-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL8_Open the water supply valve",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:05",
+			"Sequence": 36,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "6dbd5a03-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072e59e9-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6be004cd-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS8_Start the water inflow - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:05",
+			"Sequence": 34,
+			"ActionScores": []
+		},
+		{
+			"Id": "072f385d-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6f772f8a-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL9_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:16",
+			"Sequence": 40,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL9_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072f64db-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6f1dc10d-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL9_Click on the computer monitor and zoom in",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:17",
+			"Sequence": 39,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL9_Click on the computer monitor and zoom in",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072f0d10-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6e97900b-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS9_Go to the control room computer - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:17",
+			"Sequence": 38,
+			"ActionScores": []
+		},
+		{
+			"Id": "072fcbfc-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "7079ac7f-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL10_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:20",
+			"Sequence": 43,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL10_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072fe8d8-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "70257591-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL10_Click on the water level bar on screen",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:21",
+			"Sequence": 42,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL10_Click on the water level bar on screen",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072f97c8-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6fc59691-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS10_Monitor the vessel water level - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:22",
+			"Sequence": 41,
+			"ActionScores": []
+		},
+		{
+			"Id": "07306a1e-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "72ca09a0-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL11_ClickedOnScreenTooSoonStep",
+			"Failed": false,
+			"StartScore": 100,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:32",
+			"Sequence": 46,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL11_ClickedOnScreenTooSoonStep",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073047ec-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "736c3d3e-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL11_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:32",
+			"Sequence": 47,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL11_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07309c99-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "720e6b1e-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL11_Monitor the vessel water level",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:33",
+			"Sequence": 45,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL11_Monitor the vessel water level",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07301395-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "70fd1ac3-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS11_Monitor the vessel water level - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:42",
+			"Sequence": 44,
+			"ActionScores": []
+		},
+		{
+			"Id": "0730e31f-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "741c1b3c-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS12_When water level reaches 80%, go to pump",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:42",
+			"Sequence": 48,
+			"ActionScores": []
+		},
+		{
+			"Id": "073187b4-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "76d8f9ac-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL13_PlayerTooSlowStep",
+			"Failed": false,
+			"StartScore": 100,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:54",
+			"Sequence": 52,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL13_PlayerTooSlowStep",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0731c764-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "773a203e-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL13_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:54",
+			"Sequence": 53,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL13_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07319c4f-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "74f63923-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL13_Click on any wrong part of the system",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:57",
+			"Sequence": 50,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL13_Click on any wrong part of the system",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073157dc-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "75d6c6ef-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL13_Close the water supply valve",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:57",
+			"Sequence": 51,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "75d6f310-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07311b08-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "746d68ad-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS13_Stop the water inflow - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:57",
+			"Sequence": 49,
+			"ActionScores": []
+		},
+		{
+			"Id": "0731ea2c-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "779dd7b2-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS14_Close the water supply valve",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:57",
+			"Sequence": 54,
+			"ActionScores": []
+		},
+		{
+			"Id": "07324851-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "795db64a-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL15_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:33:59",
+			"Sequence": 57,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL15_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07327c12-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "78f90fdf-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL15_Put away the hose, so that people don't trip on it",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:02",
+			"Sequence": 56,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "78f91796-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073225cb-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "77ed13ae-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS15_Put away the hose, so that people don't trip on it - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:02",
+			"Sequence": 55,
+			"ActionScores": []
+		},
+		{
+			"Id": "0732c5ca-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "7b70c0c2-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL16_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:09",
+			"Sequence": 61,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL16_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07330203-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "7b14a27b-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL16_Click on pump 1 (wrong pump)",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:12",
+			"Sequence": 60,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL16_Click on pump 1 (wrong pump)",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07333091-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "7a58c348-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL16_Choose a pump (pump 2)",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:12",
+			"Sequence": 59,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "7a58c8c8-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07329e00-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "79c0282b-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS16_Choose the pump  - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:12",
+			"Sequence": 58,
+			"ActionScores": []
+		},
+		{
+			"Id": "0733e2c1-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "7da24952-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL17_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:16",
+			"Sequence": 65,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL17_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073463c5-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "7c8703e4-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL17_Click on any wrong part of the system",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:18",
+			"Sequence": 63,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL17_Click on any wrong part of the system",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073439bb-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "7d2cc4d4-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL17_Open pump 2 inflow valve",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:18",
+			"Sequence": 64,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "7d2cc9da-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07336c99-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "7bfaa7fd-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS17_Open the pump 2 inflow valve - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:18",
+			"Sequence": 62,
+			"ActionScores": []
+		},
+		{
+			"Id": "0734ff14-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8034bc97-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL18_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:18",
+			"Sequence": 69,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL18_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07356317-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "7ef6c94f-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL18_Click on any wrong part of the system",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:25",
+			"Sequence": 67,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL18_Click on any wrong part of the system",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07352fb2-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "7fb2d2de-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL18_Open the pump 2 outflow valve half-way",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:25",
+			"Sequence": 68,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "7fb2da18-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0734bac5-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "7e4c17ef-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS18_Open the pump 2 outflow valve half way - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:25",
+			"Sequence": 66,
+			"ActionScores": []
+		},
+		{
+			"Id": "0735e53b-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "81cecdc3-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL19_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:37",
+			"Sequence": 72,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL19_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0735f749-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8152d5c1-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL19_Click on the computer and zoom in",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:37",
+			"Sequence": 71,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL19_Click on the computer and zoom in",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07358ddb-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "80c85982-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS19_Click on the computer to continue - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:37",
+			"Sequence": 70,
+			"ActionScores": []
+		},
+		{
+			"Id": "07361c5c-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "83f5c3f7-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL20_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:39",
+			"Sequence": 75,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL20_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073653cc-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "837f4d9c-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL20_Select pump 2 on the screen",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:39",
+			"Sequence": 74,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL20_Select pump 2 on the screen",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0736095c-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8280c4b5-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS20_Select pump 2 on the screen - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:39",
+			"Sequence": 73,
+			"ActionScores": []
+		},
+		{
+			"Id": "0736bcdf-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "85dd2c18-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL21_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:55",
+			"Sequence": 78,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL21_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0736d332-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "85661f15-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL21_Start pump 2 on the screen",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:55",
+			"Sequence": 77,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL21_Start pump 2 on the screen",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07369085-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8466ee0e-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS21_Start the pump on the screen - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:34:55",
+			"Sequence": 76,
+			"ActionScores": []
+		},
+		{
+			"Id": "07372aa4-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "87d3e863-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL23_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:02",
+			"Sequence": 82,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL23_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07374a06-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "875ad00d-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL23_Select on the agitator on the screen",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:02",
+			"Sequence": 81,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL23_Select on the agitator on the screen",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073719fa-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "86cde672-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS23_Select the agitator on the screen - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:02",
+			"Sequence": 80,
+			"ActionScores": []
+		},
+		{
+			"Id": "0737ee01-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "894638ce-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL24_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:10",
+			"Sequence": 85,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL24_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0737ff3d-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "88ceba76-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL24_Start agitator on the screen",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:10",
+			"Sequence": 84,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL24_Start agitator on the screen",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0737da68-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "883486d0-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS24_Start the agitator on the screen - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:10",
+			"Sequence": 83,
+			"ActionScores": []
+		},
+		{
+			"Id": "07382049-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8a906361-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL25_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:12",
+			"Sequence": 88,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL25_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07383046-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8a2920a3-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL25_Click on the computer  and zoom out",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:12",
+			"Sequence": 87,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL25_Click on the computer  and zoom out",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07380f74-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "89b57380-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS25_Click on the computer to continue - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:12",
+			"Sequence": 86,
+			"ActionScores": []
+		},
+		{
+			"Id": "07390c32-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8ca96d52-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL26_Click on thermal bath heat exchanger and stop highlight",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:20",
+			"Sequence": 92,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "8ca97340-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0738e589-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8d24cf05-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL26_Click on cooling tower heat exchanger and stop highlight",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:21",
+			"Sequence": 93,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "8d24d3f8-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0738a457-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8e2f3d09-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL26_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:21",
+			"Sequence": 95,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL26_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0738c638-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8bb5bbc2-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL26_Interruptible intructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:22",
+			"Sequence": 90,
+			"ActionScores": []
+		},
+		{
+			"Id": "0738b598-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8c2ec8bf-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL26_Click on any of the wrong parts",
+			"Failed": true,
+			"StartScore": 50,
+			"Penalty": 50,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:25",
+			"Sequence": 91,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "8c2f672c-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "PenaltyAction",
+					"Failed": true,
+					"Penalty": 50.0,
+					"Message": "Action failed!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL26_Click on any of the wrong parts",
+					"Failed": true,
+					"Penalty": 0.0,
+					"Message": "FAILED",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07393ccc-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8d97588b-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL26_Find both heat exchangers",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:33",
+			"Sequence": 94,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL26_Find both heat exchangers",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07385bfc-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8b25b821-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS26_Find the heat exchangers - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:33",
+			"Sequence": 89,
+			"ActionScores": []
+		},
+		{
+			"Id": "07398dd8-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "90c138e2-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL27_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:35",
+			"Sequence": 99,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL27_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0739dea1-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8f78a106-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL27_Click on any of the wrong parts",
+			"Failed": false,
+			"StartScore": 50,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:36",
+			"Sequence": 97,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL27_Click on any of the wrong parts",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0739be92-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "905bdf77-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL27_Open the thermal bath lid",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:36",
+			"Sequence": 98,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "905be43d-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "07396934-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "8ed847b9-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS27_Open the thermal bath lid - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:36",
+			"Sequence": 96,
+			"ActionScores": []
+		},
+		{
+			"Id": "073a2a08-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "932d0323-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL28_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:41",
+			"Sequence": 103,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL28_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073a7699-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "91fbb464-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL28_Click on any of the wrong parts",
+			"Failed": false,
+			"StartScore": 50,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:45",
+			"Sequence": 101,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL28_Click on any of the wrong parts",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073a64e6-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "92ad9297-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL28_Close the thermal bath drain valve",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:45",
+			"Sequence": 102,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "92ad974c-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073a0890-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "91734a04-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS28_Close the thermal bath output valve - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:45",
+			"Sequence": 100,
+			"ActionScores": []
+		},
+		{
+			"Id": "073ad3a4-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "9523b7f1-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL29_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:46",
+			"Sequence": 106,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL29_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073aea4c-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "9487eee4-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL29_Connect the water hose to thermal bath",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:48",
+			"Sequence": 105,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "9487f3bf-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073abf17-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "938b2c2d-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS29_Connect the hose to the thermal bath - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:48",
+			"Sequence": 104,
+			"ActionScores": []
+		},
+		{
+			"Id": "073b3bf9-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "979feb21-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL30_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:50",
+			"Sequence": 109,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL30_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073b5dda-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "96e95902-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL30_Open the water supply valve",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:51",
+			"Sequence": 108,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "96e96037-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073b0f10-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "95d9a7c8-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS30_Fill up the thermal bath - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:35:51",
+			"Sequence": 107,
+			"ActionScores": []
+		},
+		{
+			"Id": "073bc042-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "98fcf1b5-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL31_Try closing the water supply valve too soon",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:19",
+			"Sequence": 111,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL31_Try closing the water supply valve too soon",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073bb035-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "9afa63cc-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL31_PlayerTooSlowThermalBathStep",
+			"Failed": false,
+			"StartScore": 100,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:20",
+			"Sequence": 113,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL31_PlayerTooSlowThermalBathStep",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073bd1b1-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "9b715fcc-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL31_Hinting",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:21",
+			"Sequence": 114,
+			"ActionScores": []
+		},
+		{
+			"Id": "073b9ff0-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "99d4e147-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL31_Close the water supply valve when the thermal bath is 70% full",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:23",
+			"Sequence": 112,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "99d55e35-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073b8c6a-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "9888344a-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS31_When the thermal bath is filled, close the water supply valve - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:23",
+			"Sequence": 110,
+			"ActionScores": []
+		},
+		{
+			"Id": "073bf938-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "9dd10344-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL32_Put away the hose, so that people don't Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:24",
+			"Sequence": 117,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL32_Put away the hose, so that people don't Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073c0d42-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "9d345a83-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL32_Put away the hose, so that people don't trip on it",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:27",
+			"Sequence": 116,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "9d346300-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073be258-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "9bf364cf-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS32_Put away the water hose",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:27",
+			"Sequence": 115,
+			"ActionScores": []
+		},
+		{
+			"Id": "073c2f54-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a04f060e-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL33_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:29",
+			"Sequence": 121,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL33_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073c4f25-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "9efbdc61-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL33_Click on any wrong part of the system",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:31",
+			"Sequence": 119,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL33_Click on any wrong part of the system",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073c3f3d-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "9fd97c6c-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL33_Close the thermal bath lid",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:31",
+			"Sequence": 120,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "9fd9811d-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073c1e84-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "9e474fa0-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS33_Close the thermal bath lid - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:31",
+			"Sequence": 118,
+			"ActionScores": []
+		},
+		{
+			"Id": "073c7552-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a269a8f8-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL34_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:35",
+			"Sequence": 124,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL34_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073c864c-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a1e1a142-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL34_Turn the thermal bath switch",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:37",
+			"Sequence": 123,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "a1e1a62d-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073c5ef5-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a0dadcc8-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS34_Switch on the thermal bath - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:37",
+			"Sequence": 122,
+			"ActionScores": []
+		},
+		{
+			"Id": "073cafd4-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a468328e-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL35_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:37",
+			"Sequence": 127,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL35_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073cc39c-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a3d914f1-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL35_Look at the thermal bath screen",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:38",
+			"Sequence": 126,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL35_Look at the thermal bath screen",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073c9655-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a3188657-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS35_Look at the thermal bath screen - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:38",
+			"Sequence": 125,
+			"ActionScores": []
+		},
+		{
+			"Id": "073ce394-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a658afee-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL36_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:40",
+			"Sequence": 131,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL36_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073d04dd-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a52b7a64-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL36_Interruptible intructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:40",
+			"Sequence": 129,
+			"ActionScores": []
+		},
+		{
+			"Id": "073cf37a-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a5c96bdf-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL36_Turn on the thermal bath screen",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:40",
+			"Sequence": 130,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL36_Turn on the thermal bath screen",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073cd398-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a4b3500b-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS36_Turn on the thermal bath screen - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:40",
+			"Sequence": 128,
+			"ActionScores": []
+		},
+		{
+			"Id": "073d270f-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a822bdf7-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL37_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:41",
+			"Sequence": 135,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL37_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073d46ec-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a72f49f0-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL37_Interruptible intructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:41",
+			"Sequence": 133,
+			"ActionScores": []
+		},
+		{
+			"Id": "073d36d8-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a7ae85df-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL37_Set up the thermal bath temperature to 40 C",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:41",
+			"Sequence": 134,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL37_Set up the thermal bath temperature to 40 C",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073d1729-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a6a443a2-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS37_Turn on the thermal bath screen - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:41",
+			"Sequence": 132,
+			"ActionScores": []
+		},
+		{
+			"Id": "073d67e3-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a9fbe545-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL38_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:43",
+			"Sequence": 138,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL38_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073d781c-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a9637bef-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL38_Look away from the thermal bath screen",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:44",
+			"Sequence": 137,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL38_Look away from the thermal bath screen",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073d571a-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "a8a82442-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS38_Look away from the thermal bath screen - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:44",
+			"Sequence": 136,
+			"ActionScores": []
+		},
+		{
+			"Id": "073dacba-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "ac8d98af-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL39_Open the temperature control power panel lid",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:49",
+			"Sequence": 141,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "ac8d9e1c-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073d98cb-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "ad1a89b5-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL39_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:36:50",
+			"Sequence": 142,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL39_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073dbfa0-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "ac24c4e4-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL39_Switch on the cooling tower",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:37:06",
+			"Sequence": 140,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "ac24c9ce-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073d886a-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "aa813bb7-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS39_Switch on the cooling tower - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:37:06",
+			"Sequence": 139,
+			"ActionScores": []
+		},
+		{
+			"Id": "073de16f-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "af7ffcaa-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL40_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:37:15",
+			"Sequence": 145,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL40_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073df268-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "aeb45dc2-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL40_Click on the computer monitor and zoom in",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:37:15",
+			"Sequence": 144,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL40_Click on the computer monitor and zoom in",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073dd01e-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "adf7e8e8-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS40_Select the jacket pump - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:37:17",
+			"Sequence": 143,
+			"ActionScores": []
+		},
+		{
+			"Id": "073e1708-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b199dc30-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL41_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:37:18",
+			"Sequence": 148,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL41_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073e2764-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b1131c5d-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL41_Select on the jacket pump on the screen",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:37:18",
+			"Sequence": 147,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL41_Select on the jacket pump on the screen",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073e0657-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b04ad128-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS41_Activate the jacket pump - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:37:22",
+			"Sequence": 146,
+			"ActionScores": []
+		},
+		{
+			"Id": "073e4a23-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b3796bc7-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL42_Hinting",
+			"Failed": true,
+			"StartScore": 30,
+			"Penalty": 30,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:37:43",
+			"Sequence": 151,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "b379db48-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "PenaltyAction",
+					"Failed": true,
+					"Penalty": 30.0,
+					"Message": "Action failed!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL42_Hinting",
+					"Failed": true,
+					"Penalty": 0.0,
+					"Message": "FAILED",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073e5a50-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b2f2a9ee-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL42_Start jacket pump on the screen",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:37:48",
+			"Sequence": 150,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL42_Start jacket pump on the screen",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073e37f2-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b21b1f94-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS42_Start up the jacket pump - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:37:48",
+			"Sequence": 149,
+			"ActionScores": []
+		},
+		{
+			"Id": "073e6a5c-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b4451722-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS43_Set up the temperature - general instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:01",
+			"Sequence": 152,
+			"ActionScores": []
+		},
+		{
+			"Id": "073e8b45-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b63b06d4-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL44_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:16",
+			"Sequence": 155,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL44_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073e9be8-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b5a22bf7-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL44_Click on the temperature control window",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:16",
+			"Sequence": 154,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL44_Click on the temperature control window",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073e7a95-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b4e5c873-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS44_Set up the temperature maximum - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:16",
+			"Sequence": 153,
+			"ActionScores": []
+		},
+		{
+			"Id": "073edf26-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b73fbb51-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL45_Interruptible intructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:18",
+			"Sequence": 157,
+			"ActionScores": []
+		},
+		{
+			"Id": "073ebbd3-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b8c04a07-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL45_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:19",
+			"Sequence": 159,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL45_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073ecd21-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b81fc5c6-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL45_Set the temperature to 30 degrees",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:19",
+			"Sequence": 158,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL45_Set the temperature to 30 degrees",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073eac13-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b6b417ec-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS45_Set the temperature to 30 degrees - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:19",
+			"Sequence": 156,
+			"ActionScores": []
+		},
+		{
+			"Id": "073effec-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "bae13fea-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL46_Hinting",
+			"Failed": false,
+			"StartScore": 30,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:32",
+			"Sequence": 162,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "NL46_Hinting",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073f0fe8-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "ba393145-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "NL46_Wait until player comes close to the pump",
+			"Failed": false,
+			"StartScore": 10,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:32",
+			"Sequence": 161,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "ba39361a-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "LocationAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073eefa4-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "b965de82-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS46_The process is now running, go to system room - instructions",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:32",
+			"Sequence": 160,
+			"ActionScores": []
+		},
+		{
+			"Id": "072875f5-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "5ef430f5-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "Every time player clicks on any valve, play mechanical sound",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:54",
+			"Sequence": 2,
+			"ActionScores": []
+		},
+		{
+			"Id": "0728c253-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "5f367ccd-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "Every time player turns the power switch, play switch sound",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:54",
+			"Sequence": 3,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "5f3681be-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0728e045-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "5f867a1a-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "Every time player turns the cooling control switch, play switch sound",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:54",
+			"Sequence": 4,
+			"ActionScores": []
+		},
+		{
+			"Id": "07291a7c-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "602ca626-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "Every time player clicks on the restart button, play click sound",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:54",
+			"Sequence": 6,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "602cab35-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072968f3-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "60777254-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "Every time player clicks on glass door, play sliding sound",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:54",
+			"Sequence": 7,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "6077777c-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "072984cc-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "60c060cc-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "Every time player clicks on water supply valve play squeaky sound",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:54",
+			"Sequence": 8,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "60c065f7-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": "60c065f7-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": "60c065f7-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": "60c065f7-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": "60c065f7-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": "60c065f7-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": "60c065f7-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0729b26e-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "6125fbd2-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "Every time player clicks on thermal bath lid, play metal sound",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:54",
+			"Sequence": 9,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": "61260110-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": "61260110-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": "61260110-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": "61260110-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": "61260110-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				},
+				{
+					"Id": null,
+					"ActionId": "61260110-c717-11ed-b7c3-0a5e0cfdd720",
+					"ActionName": "WorldObjectClickAction",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "Action succeeded!",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "0729f4f8-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "619e2206-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "Every time player clicks on any of the wrong buttons, get feedback",
+			"Failed": false,
+			"StartScore": 120,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:54",
+			"Sequence": 10,
+			"ActionScores": [
+				{
+					"Id": null,
+					"ActionId": null,
+					"ActionName": "Every time player clicks on any of the wrong buttons, get feedback",
+					"Failed": false,
+					"Penalty": 0.0,
+					"Message": "",
+					"Sequence": 0
+				}
+			]
+		},
+		{
+			"Id": "073f21a6-c745-11ed-b7c3-0a5e0cfdd720",
+			"GameSessionId": "0727bb03-c745-11ed-b7c3-0a5e0cfdd720",
+			"StepId": "db0a2ca8-c717-11ed-b7c3-0a5e0cfdd720",
+			"StepName": "LS47_End level",
+			"Failed": false,
+			"StartScore": 0,
+			"Penalty": 0,
+			"StartTime": "2023-03-20T18:31:16",
+			"StopTime": "2023-03-20T18:38:54",
+			"Sequence": 202,
+			"ActionScores": []
+		}
+	],
+	"Experience": [
+		{
+			"Action": "6077777c-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "5f3681be-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "62d1d078-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "602cab35-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "644a648c-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "66f9f1a0-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "6a998481-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "60c065f7-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "60c065f7-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "60c065f7-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "6dbd5a03-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "60c065f7-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "60c065f7-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "75d6f310-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "78f91796-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "7a58c8c8-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "7d2cc9da-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "7fb2da18-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "61260110-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "61260110-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "905be43d-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "92ad974c-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "9487f3bf-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "60c065f7-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "96e96037-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "60c065f7-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "99d55e35-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "9d346300-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "61260110-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "61260110-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "61260110-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "61260110-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "9fd9811d-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "a1e1a62d-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "ac8d9e1c-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		},
+		{
+			"Action": "ac24c9ce-c717-11ed-b7c3-0a5e0cfdd720",
+			"Points": 50
+		}
+	],
+	"FileId": "0c07c40b-bd1d-4833-9571-380df651c501"
+}
