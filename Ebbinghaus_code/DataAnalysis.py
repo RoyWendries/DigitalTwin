@@ -62,30 +62,37 @@ dataAS = newdata['ActionScores']
 daandf = newdata
 daandf1 = daandf[daandf['GameSessionId'].str.contains('Run_Daan1')]
 daandf2 = daandf[daandf['GameSessionId'].str.contains('Run_Daan2')]
+daandf3 = daandf[daandf['GameSessionId'].str.contains('Run_Daan3')]
 
 # Apply the function to the time column in your DataFrame
 daandf1['SecondsFromStart'] = daandf1['StopTime'].apply(to_epoch)
 daandf1['SecondsFromStart'] = daandf1['SecondsFromStart'] - daandf1['SecondsFromStart'].iloc[0]
 daandf2['SecondsFromStart'] = daandf2['StopTime'].apply(to_epoch)
 daandf2['SecondsFromStart'] = daandf2['SecondsFromStart'] - daandf2['SecondsFromStart'].iloc[0] 
+daandf3['SecondsFromStart'] = daandf3['StopTime'].apply(to_epoch)
+daandf3['SecondsFromStart'] = daandf3['SecondsFromStart'] - daandf3['SecondsFromStart'].iloc[0] 
 
 
 # Filter by columns that have scoring
 daandf1 = daandf1.query("`StartScore` >= 1")
 daandf2 = daandf2.query("`StartScore` >= 1")
+daandf3 = daandf3.query("`StartScore` >= 1")
 
 # New column for graphing with penalty delta
 daandf1['AntiPenalty1'] = daandf1['StartScore'] - daandf1['Penalty']
 daandf2['AntiPenalty2'] = daandf2['StartScore'] - daandf2['Penalty']
+daandf3['AntiPenalty3'] = daandf3['StartScore'] - daandf3['Penalty']
+
 
 # Merging dfs
-frames = [daandf1, daandf2]
+frames = [daandf1, daandf2, daandf3]
 daandfmerged = pd.concat(frames)
 daandfmerged = daandfmerged.sort_values(by=['SecondsFromStart'])
 
 # Cumsum columns for graphing
 daandfmerged['AntiPenalty1'] = daandfmerged['AntiPenalty1'].cumsum()
 daandfmerged['AntiPenalty2'] = daandfmerged['AntiPenalty2'].cumsum()
+daandfmerged['AntiPenalty3'] = daandfmerged['AntiPenalty3'].cumsum()
 
 # Plotting
 # x=daandfmerged["SecondsFromStart"]
@@ -102,6 +109,7 @@ daandfmerged['AntiPenalty2'] = daandfmerged['AntiPenalty2'].cumsum()
 x_1 = daandfmerged["SecondsFromStart"]
 y1_1=daandfmerged['AntiPenalty1']
 y2_1=daandfmerged['AntiPenalty2']
+y3_1=daandfmerged['AntiPenalty3']
 
 
 # Interpolate missing values
@@ -110,15 +118,17 @@ y2_1=daandfmerged['AntiPenalty2']
 # Create a stacked area plot with labels and legend
 # plt.style.use('_mpl-gallery')
 fig, ax = plt.subplots()
-ax.plot(x_1, y1_1, label='Run 1', linestyle='--', marker='o', markersize=5)
-ax.plot(x_1, y2_1, label='Run 2', linestyle='--', marker='x', markersize=5)
+ax.plot(x_1, y1_1, label='Run 1', linestyle='--', marker='.', markersize=5)
+ax.plot(x_1, y2_1, label='Run 2 (unfinished)', linestyle='--', marker='x', markersize=5)
+ax.plot(x_1, y3_1, label='Run 3', linestyle='--', marker='+', markersize=5)
 
-# Invert y-axis and set axis labels
+# Set axis labels
 plt.xlabel("Time (s)")
 plt.ylabel("Penalty *not* given")
 
-# Add legend
+# Add legend and set figure size
 plt.legend(loc='upper left')
+fig.set_size_inches(10, 7.5)
 
 # Show the plot
 plt.show()
