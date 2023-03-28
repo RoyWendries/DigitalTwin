@@ -2,6 +2,7 @@
 import os
 import json
 import pandas as pd
+import numpy as np
 from datetime import datetime
 
 
@@ -16,13 +17,33 @@ def LoadData(count):
     dataSS = pd.json_normalize(data, 'ScoredSteps')
     dataSS['GameSessionId'] = data['Session']
 
-    # call function
+    # call functions
     dataSS = ActionTime(dataSS)
+    dataSS = StepInfo(dataSS)
+
     return dataSS
 
 
 # %%
+# Add binary columns for linear and nonlinear (+ listner as a derivative)
+# and add a column for Step Number
+
+def StepInfo(data):
+    data['Linear Step'] = np.where(
+        data['StepName'].str.contains('LS') == True, True, False)
+    data['Non Linear Step'] = np.where(
+        data['StepName'].str.contains('NL') == True, True, False)
+    data['Step Number'] = np.where(
+        data['StepName'].str.contains('_') == True, data['StepName'], False)
+    # Cleanup Step Number
+    data['Step Number'] = data['Step Number'].str.extract(
+        pat='(\d+)', expand=False)
+    return data
+
+# %%
 # Add column for the time between actions
+
+
 def ActionTime(data):
     timeDelta = []
     oldtime = timeFormatting(data["StartTime"][0])
