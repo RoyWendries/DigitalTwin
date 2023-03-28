@@ -67,46 +67,55 @@ daandf2 = daandf[daandf['GameSessionId'].str.contains('Run_Daan2')]
 daandf1['SecondsFromStart'] = daandf1['StopTime'].apply(to_epoch)
 daandf1['SecondsFromStart'] = daandf1['SecondsFromStart'] - daandf1['SecondsFromStart'].iloc[0]
 daandf2['SecondsFromStart'] = daandf2['StopTime'].apply(to_epoch)
-daandf2['SecondsFromStart'] = daandf2['SecondsFromStart'] - daandf2['SecondsFromStart'].iloc[0] + daandf1['SecondsFromStart'].max()
-
+daandf2['SecondsFromStart'] = daandf2['SecondsFromStart'] - daandf2['SecondsFromStart'].iloc[0] 
 
 
 # Filter by columns that have scoring
 daandf1 = daandf1.query("`StartScore` >= 1")
 daandf2 = daandf2.query("`StartScore` >= 1")
 
+# New column for graphing with penalty delta
+daandf1['AntiPenalty1'] = daandf1['StartScore'] - daandf1['Penalty']
+daandf2['AntiPenalty2'] = daandf2['StartScore'] - daandf2['Penalty']
+
+# Merging dfs
+frames = [daandf1, daandf2]
+daandfmerged = pd.concat(frames)
+daandfmerged = daandfmerged.sort_values(by=['SecondsFromStart'])
+
+# Cumsum columns for graphing
+daandfmerged['AntiPenalty1'] = daandfmerged['AntiPenalty1'].cumsum()
+daandfmerged['AntiPenalty2'] = daandfmerged['AntiPenalty2'].cumsum()
+
 # Plotting
-# x=daandf["SecondsFromStart"]
-# y1=daandf["StartScore"].cumsum()
-# y2=daandf["Penalty"].cumsum()
-# plt.style.use('_mpl-gallery')
+# x=daandfmerged["SecondsFromStart"]
+# y1=daandfmerged['AntiPenalty1']
+# y2=daandfmerged['AntiPenalty2']
 # fig, ax = plt.subplots()
-# ax.stackplot(x, [y1, y2])
+# ax.plot(x, [y1, y2])
 # fig.set_size_inches(20, 10)
-# plt.gca().invert_yaxis()
 # plt.xlabel("Time (s)")
-# plt.ylabel("Penalty/Total")
+# plt.ylabel("Penalty *not* given")
 # plt.show()
 
 # Define x, y1, and y2
-x_1 = daandf1["SecondsFromStart"]
-y1_1 = daandf1["StartScore"].cumsum()
-y2_1 = daandf1["Penalty"].cumsum()
+x_1 = daandfmerged["SecondsFromStart"]
+y1_1=daandfmerged['AntiPenalty1']
+y2_1=daandfmerged['AntiPenalty2']
 
-x_2 = daandf2["SecondsFromStart"]
-y1_2 = daandf2["StartScore"].cumsum()
-y2_2 = daandf["Penalty"].cumsum()
+
+# Interpolate missing values
+
 
 # Create a stacked area plot with labels and legend
 # plt.style.use('_mpl-gallery')
 fig, ax = plt.subplots()
-ax.stackplot(x_1, y1_1, y2_1, labels=['Daans Penalty Run 1', 'Total Penalty Run 1'])
-fig.set_size_inches(20, 10)
+ax.plot(x_1, y1_1, label='Run 1', linestyle='--', marker='o', markersize=5)
+ax.plot(x_1, y2_1, label='Run 2', linestyle='--', marker='x', markersize=5)
 
 # Invert y-axis and set axis labels
-plt.gca().invert_yaxis()
 plt.xlabel("Time (s)")
-plt.ylabel("Penalty/Total")
+plt.ylabel("Penalty *not* given")
 
 # Add legend
 plt.legend(loc='upper left')
@@ -116,21 +125,21 @@ plt.show()
 
 # %%
 # Create a stacked area plot with labels and legend
-fig, ax = plt.subplots()
-ydelta_1 = y1_1 - y2_1
-ydelta_2 = y1_2 - y2_2
-ax.plot(x_1, ydelta_1, label='Plot 1')
-ax.plot(x_2, ydelta_2, label='Plot 2')
-fig.set_size_inches(20, 10)
+# fig, ax = plt.subplots()
+# ydelta_1 = y1_1 - y2_1
+# ydelta_2 = y1_2 - y2_2
+# ax.plot(x_1, ydelta_1, label='Plot 1')
+# ax.plot(x_2, ydelta_2, label='Plot 2')
+# fig.set_size_inches(20, 10)
 
-# Invert y-axis and set axis labels
-plt.xlabel("Time (s)")
-plt.ylabel("Penalty not given (Higher is better)")
+# # Invert y-axis and set axis labels
+# plt.xlabel("Time (s)")
+# plt.ylabel("Penalty not given (Higher is better)")
 
-# Add legend
-plt.legend()
+# # Add legend
+# plt.legend()
 
-# Show the plot
-plt.show()
+# # Show the plot
+# plt.show()
 
 # %%
