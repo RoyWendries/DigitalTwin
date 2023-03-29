@@ -60,9 +60,9 @@ dataAS = newdata['ActionScores']
 #%%
 # Loading new DF for run_ run_s with search
 run_df = newdata
-run_df1 = run_df[run_df['GameSessionId'].str.contains('run_Daan1')]
-run_df2 = run_df[run_df['GameSessionId'].str.contains('run_Daan2')]
-run_df3 = run_df[run_df['GameSessionId'].str.contains('run_Daan3')]
+run_df1 = run_df[run_df['GameSessionId'].str.contains('Run_Daan1')]
+run_df2 = run_df[run_df['GameSessionId'].str.contains('Run_Daan2')]
+run_df3 = run_df[run_df['GameSessionId'].str.contains('Run_Daan3')]
 
 # Apply the function to the time column in your DataFrame
 run_df1['SecondsFromStart'] = run_df1['StopTime'].apply(to_epoch)
