@@ -20,14 +20,12 @@ def LoadData(count):
     # call functions
     dataSS = ActionTime(dataSS)
     dataSS = StepInfo(dataSS)
-
     return dataSS
 
 
 # %%
 # Add binary columns for linear and nonlinear (+ listner as a derivative)
 # and add a column for Step Number
-
 def StepInfo(data):
     data['Linear Step'] = np.where(
         data['StepName'].str.contains('LS') == True, True, False)
@@ -40,10 +38,9 @@ def StepInfo(data):
         pat='(\d+)', expand=False)
     return data
 
+
 # %%
 # Add column for the time between actions
-
-
 def ActionTime(data):
     timeDelta = []
     oldtime = timeFormatting(data["StartTime"][0])
@@ -92,6 +89,7 @@ pathCheck = dir.endswith(pathExtension)
 if not pathCheck:
     os.chdir(pathExtension)
     dir = os.getcwd()
+
 
 # %%
 # Grab all datasets in 'Data" folder and initiate function to load data

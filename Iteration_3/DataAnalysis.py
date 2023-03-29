@@ -86,7 +86,7 @@ def minScoreTracking(data):
 
 # %%
 # Dir setup for interactive window usage
-pathExtension = "Iteration_2"
+pathExtension = "Iteration_3"
 dir = os.getcwd()
 pathCheck = dir.endswith(pathExtension)
 if not pathCheck:
