@@ -58,46 +58,46 @@ dataAS = newdata['ActionScores']
 # newdata.to_parquet(time.strftime("%Y%m%d-%H%M%S") + '.parquet')
 
 #%%
-# Loading new DF for Daan runs with search
-daandf = newdata
-daandf1 = daandf[daandf['GameSessionId'].str.contains('Run_Daan1')]
-daandf2 = daandf[daandf['GameSessionId'].str.contains('Run_Daan2')]
-daandf3 = daandf[daandf['GameSessionId'].str.contains('Run_Daan3')]
+# Loading new DF for run_ run_s with search
+run_df = newdata
+run_df1 = run_df[run_df['GameSessionId'].str.contains('run_Daan1')]
+run_df2 = run_df[run_df['GameSessionId'].str.contains('run_Daan2')]
+run_df3 = run_df[run_df['GameSessionId'].str.contains('run_Daan3')]
 
 # Apply the function to the time column in your DataFrame
-daandf1['SecondsFromStart'] = daandf1['StopTime'].apply(to_epoch)
-daandf1['SecondsFromStart'] = daandf1['SecondsFromStart'] - daandf1['SecondsFromStart'].iloc[0]
-daandf2['SecondsFromStart'] = daandf2['StopTime'].apply(to_epoch)
-daandf2['SecondsFromStart'] = daandf2['SecondsFromStart'] - daandf2['SecondsFromStart'].iloc[0] 
-daandf3['SecondsFromStart'] = daandf3['StopTime'].apply(to_epoch)
-daandf3['SecondsFromStart'] = daandf3['SecondsFromStart'] - daandf3['SecondsFromStart'].iloc[0] 
+run_df1['SecondsFromStart'] = run_df1['StopTime'].apply(to_epoch)
+run_df1['SecondsFromStart'] = run_df1['SecondsFromStart'] - run_df1['SecondsFromStart'].iloc[0]
+run_df2['SecondsFromStart'] = run_df2['StopTime'].apply(to_epoch)
+run_df2['SecondsFromStart'] = run_df2['SecondsFromStart'] - run_df2['SecondsFromStart'].iloc[0] 
+run_df3['SecondsFromStart'] = run_df3['StopTime'].apply(to_epoch)
+run_df3['SecondsFromStart'] = run_df3['SecondsFromStart'] - run_df3['SecondsFromStart'].iloc[0] 
 
 
 # Filter by columns that have scoring
-daandf1 = daandf1.query("`StartScore` >= 1")
-daandf2 = daandf2.query("`StartScore` >= 1")
-daandf3 = daandf3.query("`StartScore` >= 1")
+run_df1 = run_df1.query("`StartScore` >= 1")
+run_df2 = run_df2.query("`StartScore` >= 1")
+run_df3 = run_df3.query("`StartScore` >= 1")
 
 # New column for graphing with penalty delta
-daandf1['AntiPenalty1'] = daandf1['StartScore'] - daandf1['Penalty']
-daandf2['AntiPenalty2'] = daandf2['StartScore'] - daandf2['Penalty']
-daandf3['AntiPenalty3'] = daandf3['StartScore'] - daandf3['Penalty']
+run_df1['AntiPenalty1'] = run_df1['StartScore'] - run_df1['Penalty']
+run_df2['AntiPenalty2'] = run_df2['StartScore'] - run_df2['Penalty']
+run_df3['AntiPenalty3'] = run_df3['StartScore'] - run_df3['Penalty']
 
 
 # Merging dfs
-frames = [daandf1, daandf2, daandf3]
-daandfmerged = pd.concat(frames)
-daandfmerged = daandfmerged.sort_values(by=['SecondsFromStart'])
+frames = [run_df1, run_df2, run_df3]
+run_dfmerged = pd.concat(frames)
+run_dfmerged = run_dfmerged.sort_values(by=['SecondsFromStart'])
 
 # Cumsum columns for graphing
-daandfmerged['AntiPenalty1'] = daandfmerged['AntiPenalty1'].cumsum()
-daandfmerged['AntiPenalty2'] = daandfmerged['AntiPenalty2'].cumsum()
-daandfmerged['AntiPenalty3'] = daandfmerged['AntiPenalty3'].cumsum()
+run_dfmerged['AntiPenalty1'] = run_dfmerged['AntiPenalty1'].cumsum()
+run_dfmerged['AntiPenalty2'] = run_dfmerged['AntiPenalty2'].cumsum()
+run_dfmerged['AntiPenalty3'] = run_dfmerged['AntiPenalty3'].cumsum()
 
 # Plotting
-# x=daandfmerged["SecondsFromStart"]
-# y1=daandfmerged['AntiPenalty1']
-# y2=daandfmerged['AntiPenalty2']
+# x=run_dfmerged["SecondsFromStart"]
+# y1=run_dfmerged['AntiPenalty1']
+# y2=run_dfmerged['AntiPenalty2']
 # fig, ax = plt.subplots()
 # ax.plot(x, [y1, y2])
 # fig.set_size_inches(20, 10)
@@ -106,10 +106,10 @@ daandfmerged['AntiPenalty3'] = daandfmerged['AntiPenalty3'].cumsum()
 # plt.show()
 
 # Define x, y1, and y2
-x_1 = daandfmerged["SecondsFromStart"]
-y1_1=daandfmerged['AntiPenalty1']
-y2_1=daandfmerged['AntiPenalty2']
-y3_1=daandfmerged['AntiPenalty3']
+x_1 = run_dfmerged["SecondsFromStart"]
+y1_1=run_dfmerged['AntiPenalty1']
+y2_1=run_dfmerged['AntiPenalty2']
+y3_1=run_dfmerged['AntiPenalty3']
 
 
 # Interpolate missing values
@@ -118,9 +118,9 @@ y3_1=daandfmerged['AntiPenalty3']
 # Create a stacked area plot with labels and legend
 # plt.style.use('_mpl-gallery')
 fig, ax = plt.subplots()
-ax.plot(x_1, y1_1, label='Run 1', linestyle='--', marker='.', markersize=5)
-ax.plot(x_1, y2_1, label='Run 2 (unfinished)', linestyle='--', marker='x', markersize=5)
-ax.plot(x_1, y3_1, label='Run 3', linestyle='--', marker='+', markersize=5)
+ax.plot(x_1, y1_1, label='run_ 1', linestyle='--', marker='.', markersize=5)
+ax.plot(x_1, y2_1, label='run_ 2 (unfinished)', linestyle='--', marker='x', markersize=5)
+ax.plot(x_1, y3_1, label='run_ 3', linestyle='--', marker='+', markersize=5)
 
 # Set axis labels
 plt.xlabel("Time (seconds) (Lower is better)")
