@@ -28,7 +28,7 @@ def to_epoch(time_str):
 
 # %%
 # Interactive windows have diff dir's
-pathExtension = "Ebbinghaus_code"
+pathExtension = "Ebbinghaus_Iteration_1"
 dir = os.getcwd()
 pathCheck = dir.endswith(pathExtension)
 if not pathCheck:
