@@ -124,7 +124,7 @@ ax.plot(x_1, y3_1, label='Run 3', linestyle='--', marker='+', markersize=5)
 
 # Set axis labels
 plt.xlabel("Time (seconds) (Lower is better)")
-plt.ylabel("Score gotten (StartScore - Penalty) (Higher is better)")
+plt.ylabel("Score achieved (StartScore - Penalty) (Higher is better)")
 
 # Add legend and set figure size
 plt.legend(loc='upper left')
