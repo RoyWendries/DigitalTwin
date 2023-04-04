@@ -4,6 +4,7 @@ import json
 import pandas as pd
 import numpy as np
 from datetime import datetime
+import time
 
 
 # %%
@@ -110,3 +111,6 @@ while count > 0:
 del olddata
 
 minScoreTracking(data)
+
+# # DF to Parquet with current time (commented)
+# data.to_parquet(time.strftime("%Y%m%d-%H%M%S") + '.parquet')
