@@ -105,7 +105,7 @@ while count > 0:
     data = LoadData(count)
     if count != len(fileList) - 1:
         data = pd.concat([olddata, data])
-        data = data.drop(columns=['Id'])
+        data = data.drop(columns=['Id','ActionScores'])
     olddata = data
 del olddata
 
