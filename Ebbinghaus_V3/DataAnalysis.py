@@ -88,6 +88,7 @@ run_df3['AntiPenalty3'] = run_df3['StartScore'] - run_df3['Penalty']
 frames = [run_df1, run_df2, run_df3]
 run_dfmerged = pd.concat(frames)
 run_dfmerged = run_dfmerged.sort_values(by=['SecondsFromStart'])
+run_dflistner =run_dfmerged[run_dfmerged["StepName"].str.contains("Listner")]
 run_dfmerged = run_dfmerged[~run_dfmerged["StepName"].str.contains("Listner")]
 
 # Cumsum columns for graphing
