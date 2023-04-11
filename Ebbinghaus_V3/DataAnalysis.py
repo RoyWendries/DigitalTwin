@@ -28,7 +28,7 @@ def to_epoch(time_str):
 
 # %%
 # Interactive windows have diff dir's
-pathExtension = "Ebbinghaus_Iteration_2"
+pathExtension = "Ebbinghaus_V3"
 dir = os.getcwd()
 pathCheck = dir.endswith(pathExtension)
 if not pathCheck:
@@ -60,9 +60,9 @@ dataAS = newdata['ActionScores']
 #%%
 # Loading new DF for run_ run_s with search
 run_df = newdata
-run_df1 = run_df[run_df['GameSessionId'].str.contains('run_Daan1')]
-run_df2 = run_df[run_df['GameSessionId'].str.contains('run_Daan2')]
-run_df3 = run_df[run_df['GameSessionId'].str.contains('run_Daan3')]
+run_df1 = run_df[run_df['GameSessionId'].str.contains('Joey_Run1')]
+run_df2 = run_df[run_df['GameSessionId'].str.contains('Joey_Run2')]
+run_df3 = run_df[run_df['GameSessionId'].str.contains('Joey_Run3')]
 
 # Apply the function to the time column in your DataFrame
 run_df1['SecondsFromStart'] = run_df1['StopTime'].apply(to_epoch)
@@ -84,10 +84,11 @@ run_df2['AntiPenalty2'] = run_df2['StartScore'] - run_df2['Penalty']
 run_df3['AntiPenalty3'] = run_df3['StartScore'] - run_df3['Penalty']
 
 
-# Merging dfs
+# Merging dfs, sorting, and removing the listener values
 frames = [run_df1, run_df2, run_df3]
 run_dfmerged = pd.concat(frames)
 run_dfmerged = run_dfmerged.sort_values(by=['SecondsFromStart'])
+run_dfmerged = run_dfmerged[~run_dfmerged["StepName"].str.contains("Listner")]
 
 # Cumsum columns for graphing
 run_dfmerged['AntiPenalty1'] = run_dfmerged['AntiPenalty1'].cumsum()
@@ -118,9 +119,9 @@ y3_1=run_dfmerged['AntiPenalty3']
 # Create a stacked area plot with labels and legend
 # plt.style.use('_mpl-gallery')
 fig, ax = plt.subplots()
-ax.plot(x_1, y1_1, label='run_ 1', linestyle='--', marker='.', markersize=5)
-ax.plot(x_1, y2_1, label='run_ 2 (unfinished)', linestyle='--', marker='x', markersize=5)
-ax.plot(x_1, y3_1, label='run_ 3', linestyle='--', marker='+', markersize=5)
+ax.plot(x_1, y1_1, label='run 1', linestyle='--', marker='.', markersize=5)
+ax.plot(x_1, y2_1, label='run 2', linestyle='--', marker='x', markersize=5)
+ax.plot(x_1, y3_1, label='run 3', linestyle='--', marker='+', markersize=5)
 
 # Set axis labels
 plt.xlabel("Time (seconds) (Lower is better)")
