@@ -17,8 +17,12 @@
    zit, en run vervolgens het python bestand:
    
        python Iteration_3/DataAnalysis.py Andere mogelijkheden zijn::
+   Dit kan ook zijn:
    
        py Iteration_3/DataAnalysis.py
+       
+   of:
+   
        python3 Iteration_3/DataAnalysis.py
    
    Deze genereerd vervolgens een Parquet bestand in de map Iteration_3,
