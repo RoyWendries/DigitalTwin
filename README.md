@@ -1,4 +1,4 @@
- - # De Titel
+ - # Virtual Learning Insights
    
    Een python back-end voor BlueTea's virtual Studio
    
