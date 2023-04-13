@@ -4,6 +4,7 @@
    
    # Installation
    
+   Zorg dat Python 3.10 geinstalleerd is (dit kan mogelijk binnen een Anaconda environment)
    Eerst, clone de github repo:
    
        git clone https://github.com/RoyWendries/DigitalTwin.git
