@@ -27,6 +27,6 @@
    
        python3 Iteration_3/DataAnalysis.py
    
-   Deze genereerd vervolgens een Parquet bestand in de map Iteration_3,
+   Deze genereert vervolgens een Parquet bestand in de map Iteration_3,
    wat gebruikt kan worden in het gemaakte PowerBI dashboard. De
    naamgeving is `YYYYMMDD-hhmmss`.
